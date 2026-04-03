@@ -81,7 +81,7 @@ export default function HomePage() {
       <section className="relative py-24 overflow-hidden">
         {/* Deep dark background with centered pink glow */}
         <div className="absolute inset-0 bg-dark-surface" />
-        <div className="absolute inset-0" style={{ background: "radial-gradient(ellipse at 50% 0%, rgba(255,0,204,0.10) 0%, transparent 65%)" }} />
+        <div className="absolute inset-0" style={{ background: "radial-gradient(ellipse at 50% 0%, rgba(232,25,91,0.10) 0%, transparent 65%)" }} />
         <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-gold/50 to-transparent" />
         <div className="absolute bottom-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-gold/30 to-transparent" />
 
@@ -104,7 +104,7 @@ export default function HomePage() {
             {features.map((f) => (
               <div
                 key={f.title}
-                className="group relative p-8 rounded-2xl bg-dark-card border border-dark-border hover:border-gold/50 transition-all duration-500 hover:-translate-y-3 hover:shadow-[0_30px_60px_rgba(0,0,0,0.7),0_0_30px_rgba(255,0,204,0.12)] overflow-hidden"
+                className="group relative p-8 rounded-2xl bg-dark-card border border-dark-border hover:border-gold/50 transition-all duration-500 hover:-translate-y-3 hover:shadow-[0_30px_60px_rgba(0,0,0,0.7),0_0_30px_rgba(232,25,91,0.12)] overflow-hidden"
               >
                 {/* Hover glow layer */}
                 <div className="absolute inset-0 rounded-2xl bg-gradient-to-br from-gold/5 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
