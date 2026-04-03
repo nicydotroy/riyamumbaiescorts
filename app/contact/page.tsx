@@ -147,7 +147,7 @@ export default function ContactPage() {
                 <div className="md:col-span-2 flex justify-center pt-2">
                   <button
                     type="submit"
-                    className="flex items-center gap-3 bg-gradient-to-r from-gold to-gold-dark text-black font-bold text-base px-12 py-4 rounded-full hover:opacity-90 hover:scale-105 transition-all duration-300 shadow-[0_8px_30px_rgba(201,169,110,0.2)]"
+                    className="flex items-center gap-3 bg-gradient-to-r from-gold to-gold-dark text-black font-bold text-base px-12 py-4 rounded-full hover:opacity-90 hover:scale-105 transition-all duration-300 shadow-[0_8px_30px_rgba(255,0,204,0.2)]"
                   >
                     Send Message
                     <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">

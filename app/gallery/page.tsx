@@ -65,7 +65,7 @@ export default function GalleryPage() {
               <Link
                 key={item.slug}
                 href={`/affordable-escorts-in-${item.slug}`}
-                className="group relative overflow-hidden rounded-2xl aspect-[4/3] bg-dark-card border border-dark-border hover:border-gold/40 transition-all duration-500 hover:-translate-y-1 hover:shadow-[0_20px_40px_rgba(0,0,0,0.6)]"
+                className="group relative overflow-hidden rounded-2xl aspect-[3/4] bg-dark-card border border-dark-border hover:border-gold/40 transition-all duration-500 hover:-translate-y-1 hover:shadow-[0_20px_40px_rgba(0,0,0,0.6)]"
               >
                 <Image
                   src={item.img}

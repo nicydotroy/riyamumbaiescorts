@@ -35,16 +35,16 @@ export default function Header() {
       <div className="h-px bg-gradient-to-r from-transparent via-gold to-transparent" />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-20">
+        <div className="flex items-center justify-between h-24">
           {/* Logo */}
           <Link href="/" className="flex-shrink-0 group">
             <Image
               src="/images/logo.webp"
               alt="Riya Escorts In Mumbai"
-              width={160}
-              height={48}
+              width={260}
+              height={80}
               priority
-              className="h-12 w-auto transition-opacity duration-200 group-hover:opacity-80"
+              className="h-16 md:h-20 w-auto transition-opacity duration-200 group-hover:opacity-80"
             />
           </Link>
 
@@ -65,7 +65,7 @@ export default function Header() {
           {/* Desktop CTA */}
           <a
             href="tel:+918169808077"
-            className="hidden md:flex items-center gap-2 bg-gradient-to-r from-gold to-gold-dark text-black font-bold text-sm px-6 py-2.5 rounded-full transition-all duration-300 hover:opacity-90 hover:scale-105 shadow-[0_4px_15px_rgba(201,169,110,0.3)]"
+            className="hidden md:flex items-center gap-2 bg-gradient-to-r from-gold to-gold-dark text-black font-bold text-sm px-6 py-2.5 rounded-full transition-all duration-300 hover:opacity-90 hover:scale-105 shadow-[0_4px_15px_rgba(255,0,204,0.3)]"
           >
             <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
               <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />

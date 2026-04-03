@@ -13,9 +13,9 @@ module.exports = {
       },
       colors: {
         gold: {
-          DEFAULT: '#C9A96E',
-          light: '#E8D5A3',
-          dark: '#A07840',
+          DEFAULT: '#FF00CC',
+          light: '#FF66E0',
+          dark: '#CC0099',
         },
         dark: {
           DEFAULT: '#090909',
@@ -35,8 +35,8 @@ module.exports = {
           '100%': { opacity: '1', transform: 'translateY(0)' },
         },
         pulseGold: {
-          '0%, 100%': { boxShadow: '0 0 0 0 rgba(201,169,110,0.4)' },
-          '50%': { boxShadow: '0 0 0 12px rgba(201,169,110,0)' },
+          '0%, 100%': { boxShadow: '0 0 0 0 rgba(255,0,204,0.4)' },
+          '50%': { boxShadow: '0 0 0 12px rgba(255,0,204,0)' },
         },
       },
     },

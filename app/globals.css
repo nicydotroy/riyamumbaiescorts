@@ -17,19 +17,19 @@
 
 @layer utilities {
   .text-gradient-gold {
-    background: linear-gradient(135deg, #C9A96E 0%, #E8D5A3 60%, #C9A96E 100%);
+    background: linear-gradient(135deg, #FF00CC 0%, #FF66E0 60%, #FF00CC 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
   }
   .border-gradient-gold {
-    border-image: linear-gradient(135deg, #C9A96E, #E8D5A3) 1;
+    border-image: linear-gradient(135deg, #FF00CC, #FF66E0) 1;
   }
   .glow-gold {
-    box-shadow: 0 0 30px rgba(201, 169, 110, 0.15), 0 0 60px rgba(201, 169, 110, 0.05);
+    box-shadow: 0 0 30px rgba(255, 0, 204, 0.15), 0 0 60px rgba(255, 0, 204, 0.05);
   }
   .card-hover {
-    @apply transition-all duration-500 hover:-translate-y-2 hover:shadow-[0_20px_50px_rgba(0,0,0,0.6),0_0_20px_rgba(201,169,110,0.08)];
+    @apply transition-all duration-500 hover:-translate-y-2 hover:shadow-[0_20px_50px_rgba(0,0,0,0.6),0_0_20px_rgba(255,0,204,0.08)];
   }
   .section-divider::before,
   .section-divider::after {

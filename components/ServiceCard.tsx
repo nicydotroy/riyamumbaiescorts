@@ -19,9 +19,9 @@ export default function ServiceCard({
 }: ServiceCardProps) {
   return (
     <Link href={href} className="group block">
-      <div className="relative overflow-hidden rounded-2xl bg-dark-card border border-dark-border hover:border-gold/40 transition-all duration-500 hover:-translate-y-2 hover:shadow-[0_24px_50px_rgba(0,0,0,0.6),0_0_20px_rgba(201,169,110,0.08)]">
+      <div className="relative overflow-hidden rounded-2xl bg-dark-card border border-dark-border hover:border-gold/40 transition-all duration-500 hover:-translate-y-2 hover:shadow-[0_24px_50px_rgba(0,0,0,0.6),0_0_20px_rgba(255,0,204,0.08)]">
         {/* Image */}
-        <div className="relative h-60 overflow-hidden">
+        <div className="relative aspect-[3/4] overflow-hidden">
           <Image
             src={image}
             alt={alt}

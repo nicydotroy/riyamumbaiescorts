@@ -11,7 +11,7 @@ export default function ContactBanner({ location = "Mumbai" }: ContactBannerProp
         className="absolute inset-0 opacity-[0.03]"
         style={{
           backgroundImage:
-            "radial-gradient(ellipse at 50% 50%, #C9A96E 0%, transparent 70%)",
+            "radial-gradient(ellipse at 50% 50%, #FF00CC 0%, transparent 70%)",
         }}
       />
       {/* Top & bottom gold lines */}
@@ -37,7 +37,7 @@ export default function ContactBanner({ location = "Mumbai" }: ContactBannerProp
           <a
             href="tel:+918169808077"
             title={`Contact Riya ${location} Escorts`}
-            className="flex items-center gap-3 bg-gradient-to-r from-gold to-gold-dark text-black font-bold text-base px-10 py-4 rounded-full hover:opacity-90 hover:scale-105 transition-all duration-300 shadow-[0_8px_30px_rgba(201,169,110,0.25)]"
+            className="flex items-center gap-3 bg-gradient-to-r from-gold to-gold-dark text-black font-bold text-base px-10 py-4 rounded-full hover:opacity-90 hover:scale-105 transition-all duration-300 shadow-[0_8px_30px_rgba(255,0,204,0.25)]"
           >
             <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
               <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
