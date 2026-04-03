@@ -25,6 +25,7 @@ export default function ServicesPage() {
       <HeroBanner title="Riya Mumbai Escorts Services" />
       <ContactBanner location="Mumbai" />
       <ServiceGrid location="Mumbai" />
+      <ContactBanner location="Mumbai" />
     </>
   );
 }

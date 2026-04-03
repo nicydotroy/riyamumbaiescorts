@@ -1,3 +1,42 @@
-/* Global resets — actual styles come from public/css via layout */
-*, *::before, *::after { box-sizing: border-box; }
-body { margin: 0; }
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-dark text-gray-100 antialiased;
+    font-family: var(--font-inter), system-ui, sans-serif;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-playfair), Georgia, serif;
+  }
+}
+
+@layer utilities {
+  .text-gradient-gold {
+    background: linear-gradient(135deg, #C9A96E 0%, #E8D5A3 60%, #C9A96E 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  .border-gradient-gold {
+    border-image: linear-gradient(135deg, #C9A96E, #E8D5A3) 1;
+  }
+  .glow-gold {
+    box-shadow: 0 0 30px rgba(201, 169, 110, 0.15), 0 0 60px rgba(201, 169, 110, 0.05);
+  }
+  .card-hover {
+    @apply transition-all duration-500 hover:-translate-y-2 hover:shadow-[0_20px_50px_rgba(0,0,0,0.6),0_0_20px_rgba(201,169,110,0.08)];
+  }
+  .section-divider::before,
+  .section-divider::after {
+    content: '';
+    @apply inline-block w-16 h-px bg-gradient-to-r from-transparent to-gold align-middle mx-3;
+  }
+  .section-divider::after {
+    @apply bg-gradient-to-l;
+  }
+}

@@ -1,198 +1,186 @@
 import Link from "next/link";
 
+const femaleEscorts = [
+  ["/mumbai-it-girls-escorts", "Mumbai IT Girls"],
+  ["/busty-college-girls-escorts-mumbai", "Busty College Girls"],
+  ["/gfe-experts-girls-escorts-mumbai", "Girlfriend Escorts"],
+  ["/housewife-escorts-mumbai", "Lovely Housewives"],
+  ["/affordable-call-girls-in-mumbai", "Call Girls in Mumbai"],
+  ["/bdsm-expert-escorts-mumbai", "BDSM Escorts"],
+  ["/punjabi-girls-escorts-mumbai", "Punjabi Escorts"],
+  ["/hj-bj-experts-girls-escorts-mumbai", "HJ BJ Escorts"],
+  ["/role-play-experts-girls-escorts-mumbai", "Role Play Escorts"],
+  ["/south-indian-escorts-mumbai", "South Indian Escorts"],
+  ["/unsatisfied-female-escorts-mumbai", "Unsatisfied Female"],
+  ["/marathi-female-escorts-mumbai", "Marathi Escorts"],
+  ["/gujarati-female-escorts-mumbai", "Gujarati Escorts"],
+  ["/russian-girls-escorts-mumbai", "Russian Escorts"],
+  ["/gallery", "Gallery"],
+];
+
+const locationCol1 = [
+  ["airoli", "Airoli"], ["ambernath", "Ambernath"], ["ambivali", "Ambivali"],
+  ["andheri", "Andheri"], ["asangaon", "Asangaon"], ["badlapur", "Badlapur"],
+  ["bandra", "Bandra"], ["bhandup", "Bhandup"], ["bhayander", "Bhayander"],
+  ["boisar", "Boisar"], ["borivali", "Borivali"], ["byculla", "Byculla"],
+  ["cbd-belapur", "CBD Belapur"], ["churchgate", "Churchgate"], ["cst", "CST"],
+  ["dadar", "Dadar"], ["dahisar", "Dahisar"], ["diva", "Diva"],
+  ["dombivali", "Dombivali"], ["ghansoli", "Ghansoli"], ["ghatkopar", "Ghatkopar"],
+  ["goregaon", "Goregaon"], ["govandi", "Govandi"], ["grantroad", "Grantroad"],
+  ["jogeshwari", "Jogeshwari"], ["juhu", "Juhu"], ["juinagar", "Juinagar"],
+];
+
+const locationCol2 = [
+  ["kalamboli", "Kalamboli"], ["kalwa", "Kalwa"], ["kalyan", "Kalyan"],
+  ["kamothe", "Kamothe"], ["kandivali", "Kandivali"], ["kanjurmarg", "Kanjurmarg"],
+  ["karjat", "Karjat"], ["kasara", "Kasara"], ["khar", "Khar"],
+  ["kharghar", "Kharghar"], ["khopoli", "Khopoli"], ["kopar-khairane", "Kopar Khairane"],
+  ["kurla", "Kurla"], ["lokhandwala", "Lokhandwala"], ["lower-parel", "Lower Parel"],
+  ["mahalaxmi", "Mahalaxmi"], ["malad", "Malad"], ["matunga", "Matunga"],
+  ["miraroad", "Mira Road"], ["mulund", "Mulund"], ["mumbai-airports", "Mumbai Airports"],
+  ["mumbai-central", "Mumbai Central"], ["mumbra", "Mumbra"], ["nahur", "Nahur"],
+  ["naigaon", "Naigaon"], ["nalasopara", "Nalasopara"], ["nerul", "Nerul"],
+];
+
+const locationCol3 = [
+  ["neral", "Neral"], ["palghar", "Palghar"], ["panvel", "Panvel"],
+  ["parel", "Parel"], ["powai-hiranandani", "Powai"], ["prabhadevi", "Prabhadevi"],
+  ["rabale", "Rabale"], ["sakinaka", "Sakinaka"], ["sanpada", "Sanpada"],
+  ["santacruz", "Santacruz"], ["saphale", "Saphale"], ["seawood", "Seawood"],
+  ["sion", "Sion"], ["thakurli", "Thakurli"], ["thane", "Thane"],
+  ["titwala", "Titwala"], ["turbhe", "Turbhe"], ["ulhasnagar", "Ulhasnagar"],
+  ["ulwe", "Ulwe"], ["varsova", "Varsova"], ["vasai", "Vasai"],
+  ["vashi", "Vashi"], ["vidyavihar", "Vidyavihar"], ["vikhroli", "Vikhroli"],
+  ["vileparle", "Vileparle"], ["virar", "Virar"], ["wadala", "Wadala"],
+];
+
 export default function Footer() {
   return (
-    <footer className="page_footer ds section_padding_top_100 section_padding_bottom_65">
-      <div className="container">
-        <div className="row">
-          {/* Female Escorts + Partner Websites */}
-          <div className="col-md-3 col-sm-6">
-            <div className="widget widget_nav_menu">
-              <h3 className="widget-title">
-                Female <span className="highlight regular">Escorts</span>
-              </h3>
-              <ul className="menu greylinks fontsize_16">
-                <li><Link href="/mumbai-it-girls-escorts">Mumbai IT Girls</Link></li>
-                <li><Link href="/busty-college-girls-escorts-mumbai">Busty College Girls</Link></li>
-                <li><Link href="/gfe-experts-girls-escorts-mumbai">Girlfriend Escorts</Link></li>
-                <li><Link href="/housewife-escorts-mumbai">Lovely Housewives</Link></li>
-                <li><Link href="/affordable-call-girls-in-mumbai">Call Girls in Mumbai</Link></li>
-                <li><Link href="/bdsm-expert-escorts-mumbai">BDSM Escorts</Link></li>
-                <li><Link href="/punjabi-girls-escorts-mumbai">Punjabi Escorts</Link></li>
-                <li><Link href="/hj-bj-experts-girls-escorts-mumbai">HJ BJ Escorts</Link></li>
-                <li><Link href="/role-play-experts-girls-escorts-mumbai">Role Play Escorts</Link></li>
-                <li><Link href="/south-indian-escorts-mumbai">South Indian Escorts</Link></li>
-                <li><Link href="/unsatisfied-female-escorts-mumbai">Unsatisfied Female</Link></li>
-                <li><Link href="/marathi-female-escorts-mumbai">Marathi Escorts</Link></li>
-                <li><Link href="/gujarati-female-escorts-mumbai">Gujarati Escorts</Link></li>
-                <li><Link href="/russian-girls-escorts-mumbai">Russian Escorts in Mumbai</Link></li>
-                <li><Link href="/gallery">Gallery</Link></li>
-              </ul>
-              <h3 className="widget-title">
-                Partner <span className="highlight regular">Website</span>
-              </h3>
-              <ul className="menu greylinks fontsize_16">
-                <li><Link href="/">Mumbai Escorts</Link></li>
-                <li><Link href="/">Escorts in Mumbai</Link></li>
-                <li><Link href="/">Call Girls in Mumbai</Link></li>
-                <li><Link href="/">Mumbai Call Girls</Link></li>
-                <li><Link href="/">Mumbai Escorts Service</Link></li>
-                <li><a href="https://hotnatasha.in/" target="_blank" rel="noopener noreferrer">Escorts in Pune</a></li>
-                <li><a href="https://trykartehai.com/" target="_blank" rel="noopener noreferrer">Sex Toys In India</a></li>
-                <li><Link href="/">Escorts in Mumbai</Link></li>
-                <li><Link href="/">Call Girls In Mumbai</Link></li>
-                <li><Link href="/">Escort In Mumbai</Link></li>
-              </ul>
-            </div>
+    <footer className="bg-dark-surface border-t border-dark-border">
+      {/* Top gold line */}
+      <div className="h-px bg-gradient-to-r from-transparent via-gold to-transparent" />
+
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+        {/* Brand row */}
+        <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-6 mb-12 pb-12 border-b border-dark-border">
+          <div>
+            <h2 className="font-playfair text-2xl font-bold text-white mb-2">
+              Riya <span className="text-gold">Mumbai Escorts</span>
+            </h2>
+            <p className="text-gray-500 text-sm max-w-xs">
+              Mumbai&apos;s premier escort service. Discreet, elegant, unforgettable.
+            </p>
+          </div>
+          <div className="flex items-center gap-4">
+            <a
+              href="tel:+918169808077"
+              className="flex items-center gap-2 bg-gradient-to-r from-gold to-gold-dark text-black font-bold text-sm px-6 py-3 rounded-full hover:opacity-90 transition-opacity"
+            >
+              <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+                <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
+              </svg>
+              +91 8169808077
+            </a>
+            <a
+              href="https://wa.me/918169808077"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-2 border border-dark-border text-gray-400 hover:text-gold hover:border-gold/40 text-sm px-6 py-3 rounded-full transition-all duration-200"
+            >
+              WhatsApp
+            </a>
+          </div>
+        </div>
+
+        {/* Links grid */}
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-10">
+          {/* Services */}
+          <div>
+            <h3 className="text-gold text-xs font-semibold tracking-[0.2em] uppercase mb-5">
+              Female Escorts
+            </h3>
+            <ul className="space-y-2.5">
+              {femaleEscorts.map(([href, label]) => (
+                <li key={href}>
+                  <Link
+                    href={href}
+                    className="text-gray-500 hover:text-gold text-xs transition-colors duration-200"
+                  >
+                    {label}
+                  </Link>
+                </li>
+              ))}
+            </ul>
           </div>
 
-          {/* Our Location - Part 1 */}
-          <div className="col-md-3 col-sm-6">
-            <div className="widget widget_nav_menu">
-              <h3 className="widget-title">
-                Our <span className="highlight regular">Location</span>
-              </h3>
-              <ul className="menu greylinks fontsize_16">
-                {[
-                  ["airoli", "Airoli"],
-                  ["ambernath", "Ambernath"],
-                  ["ambivali", "Ambivali"],
-                  ["andheri", "Andheri"],
-                  ["asangaon", "Asangaon"],
-                  ["badlapur", "Badlapur"],
-                  ["bandra", "Bandra"],
-                  ["bhandup", "Bhandup"],
-                  ["bhayander", "Bhayander"],
-                  ["boisar", "Boisar"],
-                  ["borivali", "Borivali"],
-                  ["byculla", "Byculla"],
-                  ["cbd-belapur", "CBD Belapur"],
-                  ["churchgate", "Churchgate"],
-                  ["cst", "CST"],
-                  ["dadar", "Dadar"],
-                  ["dahisar", "Dahisar"],
-                  ["diva", "Diva"],
-                  ["dombivali", "Dombivali"],
-                  ["ghansoli", "Ghansoli"],
-                  ["ghatkopar", "Ghatkopar"],
-                  ["goregaon", "Goregaon"],
-                  ["govandi", "Govandi"],
-                  ["grantroad", "Grantroad"],
-                  ["jogeshwari", "Jogeshwari"],
-                  ["juhu", "Juhu"],
-                  ["juinagar", "Juinagar"],
-                ].map(([slug, name]) => (
-                  <li key={slug}>
-                    <Link href={`/affordable-escorts-in-${slug}`}>
-                      Female Escorts in {name}
-                    </Link>
-                  </li>
-                ))}
-              </ul>
-            </div>
+          {/* Location col 1 */}
+          <div>
+            <h3 className="text-gold text-xs font-semibold tracking-[0.2em] uppercase mb-5">
+              Locations
+            </h3>
+            <ul className="space-y-2.5">
+              {locationCol1.map(([slug, name]) => (
+                <li key={slug}>
+                  <Link
+                    href={`/affordable-escorts-in-${slug}`}
+                    className="text-gray-500 hover:text-gold text-xs transition-colors duration-200"
+                  >
+                    {name}
+                  </Link>
+                </li>
+              ))}
+            </ul>
           </div>
 
-          {/* Our Location - Part 2 */}
-          <div className="col-md-3 col-sm-6">
-            <div className="widget widget_categories">
-              <h3 className="widget-title">
-                Our <span className="highlight regular">Location</span>
-              </h3>
-              <ul className="greylinks">
-                {[
-                  ["kalamboli", "Kalamboli"],
-                  ["kalwa", "Kalwa"],
-                  ["kalyan", "Kalyan"],
-                  ["kamothe", "Kamothe"],
-                  ["kandivali", "Kandivali"],
-                  ["kanjurmarg", "Kanjurmarg"],
-                  ["karjat", "Karjat"],
-                  ["kasara", "Kasara"],
-                  ["khar", "Khar"],
-                  ["kharghar", "Kharghar"],
-                  ["khopoli", "Khopoli"],
-                  ["kopar-khairane", "Kopar Khairane"],
-                  ["kurla", "Kurla"],
-                  ["lokhandwala", "Lokhandwala"],
-                  ["lower-parel", "Lower Parel"],
-                  ["mahalaxmi", "Mahalaxmi"],
-                  ["malad", "Malad"],
-                  ["matunga", "Matunga"],
-                  ["miraroad", "Miraroad"],
-                  ["mulund", "Mulund"],
-                  ["mumbai-airports", "Mumbai Airports"],
-                  ["mumbai-central", "Mumbai Central"],
-                  ["mumbra", "Mumbra"],
-                  ["nahur", "Nahur"],
-                  ["naigaon", "Naigaon"],
-                  ["nalasopara", "Nalasopara"],
-                  ["nerul", "Nerul"],
-                ].map(([slug, name]) => (
-                  <li key={slug}>
-                    <Link href={`/affordable-escorts-in-${slug}`}>
-                      {slug === "kopar-khairane"
-                        ? "Escorts in Kopar Khairane"
-                        : slug === "lower-parel"
-                        ? "Escorts in Lower Parel"
-                        : slug === "mumbai-airports"
-                        ? "Escorts in Mumbai Airports"
-                        : slug === "mumbai-central"
-                        ? "Escorts in Mumbai Central"
-                        : `Female Escorts in ${name}`}
-                    </Link>
-                  </li>
-                ))}
-              </ul>
-            </div>
+          {/* Location col 2 */}
+          <div>
+            <h3 className="text-gold text-xs font-semibold tracking-[0.2em] uppercase mb-5">
+              Locations
+            </h3>
+            <ul className="space-y-2.5">
+              {locationCol2.map(([slug, name]) => (
+                <li key={slug}>
+                  <Link
+                    href={`/affordable-escorts-in-${slug}`}
+                    className="text-gray-500 hover:text-gold text-xs transition-colors duration-200"
+                  >
+                    {name}
+                  </Link>
+                </li>
+              ))}
+            </ul>
           </div>
 
-          {/* Our Location - Part 3 */}
-          <div className="col-md-3 col-sm-6">
-            <div className="widget widget_categories">
-              <h3 className="widget-title">
-                Our <span className="highlight regular">Location</span>
-              </h3>
-              <ul className="greylinks">
-                {[
-                  ["neral", "Neral"],
-                  ["palghar", "Palghar"],
-                  ["panvel", "Panvel"],
-                  ["parel", "Parel"],
-                  ["powai-hiranandani", "Powai Hiranandani"],
-                  ["prabhadevi", "Prabhadevi"],
-                  ["rabale", "Rabale"],
-                  ["sakinaka", "Sakinaka"],
-                  ["sanpada", "Sanpada"],
-                  ["santacruz", "Santacruz"],
-                  ["saphale", "Saphale"],
-                  ["seawood", "Seawood"],
-                  ["sion", "Sion"],
-                  ["thakurli", "Thakurli"],
-                  ["thane", "Thane"],
-                  ["titwala", "Titwala"],
-                  ["turbhe", "Turbhe"],
-                  ["ulhasnagar", "Ulhasnagar"],
-                  ["ulwe", "Ulwe"],
-                  ["varsova", "Varsova"],
-                  ["vasai", "Vasai"],
-                  ["vashi", "Vashi"],
-                  ["vidyavihar", "Vidyavihar"],
-                  ["vikhroli", "Vikhroli"],
-                  ["vileparle", "Vileparle"],
-                  ["virar", "Virar"],
-                  ["wadala", "Wadala"],
-                ].map(([slug, name]) => (
-                  <li key={slug}>
-                    <Link href={`/affordable-escorts-in-${slug}`}>
-                      {slug === "powai-hiranandani"
-                        ? "Escorts in Powai Hiranandani"
-                        : `Female Escorts in ${name}`}
-                    </Link>
-                  </li>
-                ))}
-              </ul>
-            </div>
+          {/* Location col 3 */}
+          <div>
+            <h3 className="text-gold text-xs font-semibold tracking-[0.2em] uppercase mb-5">
+              Locations
+            </h3>
+            <ul className="space-y-2.5">
+              {locationCol3.map(([slug, name]) => (
+                <li key={slug}>
+                  <Link
+                    href={`/affordable-escorts-in-${slug}`}
+                    className="text-gray-500 hover:text-gold text-xs transition-colors duration-200"
+                  >
+                    {name}
+                  </Link>
+                </li>
+              ))}
+            </ul>
           </div>
+        </div>
+      </div>
+
+      {/* Bottom bar */}
+      <div className="border-t border-dark-border">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 flex flex-col sm:flex-row items-center justify-between gap-3">
+          <p className="text-gray-600 text-xs">
+            © {new Date().getFullYear()} Riya Mumbai Escorts. All rights reserved.
+          </p>
+          <p className="text-gray-700 text-xs">
+            For adults 18+ only. Content is for entertainment purposes.
+          </p>
         </div>
       </div>
     </footer>

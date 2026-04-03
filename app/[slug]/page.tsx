@@ -100,12 +100,21 @@ export default async function DynamicPage({ params }: Props) {
         <ContactBanner location={name} />
         <ServiceGrid location={name} />
         <ContactBanner location={name} />
-        <section className="ds section_padding_top_130 section_padding_bottom_130">
-          <div className="container">
-            <hr />
-            <div className="row">
-              <div className="col-sm-12">
-                <h2 className="text-center">Riya Mumbai Escorts in {name}</h2>
+        <section className="py-20 bg-dark">
+          <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            {/* SEO content */}
+            <div className="bg-dark-card border border-dark-border rounded-2xl p-8 md:p-12">
+              <div className="text-center mb-10">
+                <h2 className="font-playfair text-3xl md:text-4xl font-bold text-white mb-4">
+                  Riya Mumbai Escorts in {name}
+                </h2>
+                <div className="flex items-center justify-center gap-3">
+                  <div className="h-px w-12 bg-gradient-to-r from-transparent to-gold" />
+                  <div className="w-2 h-2 rotate-45 bg-gold" />
+                  <div className="h-px w-12 bg-gradient-to-l from-transparent to-gold" />
+                </div>
+              </div>
+              <div className="space-y-6 text-gray-400 text-sm leading-relaxed max-w-3xl mx-auto">
                 <p>
                   {name} offers endless opportunities for both business and
                   pleasure. Amidst the bustling streets and luxurious hotels,
@@ -115,39 +124,34 @@ export default async function DynamicPage({ params }: Props) {
                   companionship experience that caters to individuals seeking
                   luxury, relaxation, and unforgettable moments.
                 </p>
-                <h3>Why Choose Riya Escorts in {name}?</h3>
+                <h3 className="font-playfair text-xl font-semibold text-white">
+                  Why Choose Riya Escorts in {name}?
+                </h3>
                 <p>
                   When it comes to high-class escort services in {name}, Riya is
-                  a name that resonates with sophistication and exclusivity. She
-                  is known for her breathtaking beauty, but it is her engaging
-                  personality, confidence, and intelligence that truly set her
-                  apart. With Riya by your side, you can enjoy the company of
-                  someone who not only understands your desires but also knows
-                  how to create an atmosphere of warmth, comfort, and
-                  connection.
+                  a name that resonates with sophistication and exclusivity.
+                  With Riya by your side, you can enjoy the company of someone
+                  who not only understands your desires but also knows how to
+                  create an atmosphere of warmth, comfort, and connection.
                 </p>
-                <h3>Experience the Best in {name} Escort Services</h3>
+                <h3 className="font-playfair text-xl font-semibold text-white">
+                  Experience the Best in {name} Escort Services
+                </h3>
                 <p>
                   Booking an escort is not just about hiring someone for
                   companionship; it&apos;s about creating an experience that
                   enhances your time in {name}. Riya offers a personalized
                   experience designed to meet your expectations.
                 </p>
-                <h3>
-                  Book Riya for Exclusive and Discreet Escorts in {name}
+                <h3 className="font-playfair text-xl font-semibold text-white">
+                  Book Your Luxurious Experience with Riya Today
                 </h3>
-                <p>
-                  One of the key aspects that clients appreciate about Riya is
-                  her professionalism and discretion. Whether you are a
-                  first-time client or a returning one, Riya ensures that your
-                  privacy is respected at all times.
-                </p>
-                <h3>Book Your Luxurious Experience with Riya Today</h3>
                 <p>
                   Visit{" "}
                   <Link
                     href={`/${LOCATION_PREFIX}${locSlug}`}
                     title={`Book Riya Escorts in ${name}`}
+                    className="text-gold hover:text-gold-light transition-colors"
                   >
                     Riya Escorts in {name}
                   </Link>{" "}
@@ -168,47 +172,63 @@ export default async function DynamicPage({ params }: Props) {
     <>
       <HeroBanner title={service.title} />
       <ContactBanner location="Mumbai" />
-      <section className="ds section_padding_top_130 section_padding_bottom_130">
-        <div className="container">
-          <div className="row">
-            <div className="col-sm-12 col-md-8 col-md-offset-2 text-center">
-              <h2>{service.title}</h2>
-              <p className="lead">{service.description}</p>
-            </div>
-          </div>
-          <div className="row" style={{ marginTop: "40px" }}>
-            <div className="col-sm-12 col-md-6">
+      <section className="py-20 bg-dark">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-start">
+            {/* Image */}
+            <div className="relative rounded-2xl overflow-hidden">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
                 src={service.image}
                 alt={service.alt}
-                className="img-responsive"
-                style={{ width: "100%", borderRadius: "8px" }}
+                className="w-full object-cover rounded-2xl"
+                style={{ aspectRatio: "4/3" }}
               />
+              <div className="absolute inset-0 rounded-2xl border border-gold/20" />
             </div>
-            <div className="col-sm-12 col-md-6">
-              <h3>About Our {service.title} Service</h3>
-              <p>
-                Riya Mumbai Escorts offers an exclusive and discreet{" "}
-                {service.title.toLowerCase()} experience, tailored for the
-                discerning individual. Our models are handpicked for their
-                elegance, charm, and professionalism. Whether you are looking
-                for a companion for a social event, dinner, or a private
-                encounter, we ensure complete satisfaction and confidentiality.
+
+            {/* Content */}
+            <div>
+              <p className="text-gold text-xs font-semibold tracking-[0.3em] uppercase mb-4">
+                Exclusive Service
               </p>
-              <h3>Why Choose Riya {service.title}?</h3>
-              <ul>
-                <li>100% Privacy &amp; Discretion Guaranteed</li>
-                <li>Top-tier, professionally trained companions</li>
-                <li>24/7 availability across Mumbai and suburbs</li>
-                <li>Easy booking via call or WhatsApp</li>
-                <li>Flexible packages to suit your needs</li>
+              <h2 className="font-playfair text-3xl md:text-4xl font-bold text-white mb-5 leading-tight">
+                {service.title}
+              </h2>
+              <div className="h-px w-12 bg-gold mb-6" />
+              <p className="text-gray-400 text-sm leading-relaxed mb-8">
+                {service.description}
+              </p>
+
+              <h3 className="font-playfair text-xl font-semibold text-white mb-4">
+                Why Choose Our {service.title}?
+              </h3>
+              <ul className="space-y-3 mb-8">
+                {[
+                  "100% Privacy & Discretion Guaranteed",
+                  "Top-tier, professionally trained companions",
+                  "24/7 availability across Mumbai and suburbs",
+                  "Easy booking via call or WhatsApp",
+                  "Flexible packages to suit your needs",
+                ].map((item) => (
+                  <li key={item} className="flex items-start gap-3 text-gray-400 text-sm">
+                    <span className="w-5 h-5 rounded-full bg-gold/10 border border-gold/30 flex items-center justify-center flex-shrink-0 mt-0.5">
+                      <svg className="w-3 h-3 text-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M5 13l4 4L19 7" />
+                      </svg>
+                    </span>
+                    {item}
+                  </li>
+                ))}
               </ul>
+
               <a
                 href="tel:+918169808077"
-                className="btn btn-primary"
-                style={{ marginTop: "20px" }}
+                className="inline-flex items-center gap-3 bg-gradient-to-r from-gold to-gold-dark text-black font-bold text-base px-8 py-4 rounded-full hover:opacity-90 hover:scale-105 transition-all duration-300 shadow-[0_8px_30px_rgba(201,169,110,0.25)]"
               >
+                <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                  <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
+                </svg>
                 Book Now — +91 8169808077
               </a>
             </div>

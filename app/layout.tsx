@@ -1,8 +1,21 @@
 import type { Metadata } from "next";
+import { Playfair_Display, Inter } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Script from "next/script";
+
+const playfair = Playfair_Display({
+  subsets: ["latin"],
+  variable: "--font-playfair",
+  weight: ["400", "600", "700"],
+  style: ["normal", "italic"],
+});
+
+const inter = Inter({
+  subsets: ["latin"],
+  variable: "--font-inter",
+});
 
 export const metadata: Metadata = {
   title: "Luxury Escorts in Mumbai | Escorts Services Mumbai | 24/7 Availability",
@@ -17,18 +30,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="no-js">
-      <head>
-        <link rel="stylesheet" href="/css/bootstrap.min.css" />
-        <link rel="stylesheet" href="/css/animations.css" />
-        <link rel="stylesheet" href="/css/fonts.css" />
-        <link rel="stylesheet" href="/css/main.css" />
-        <link
-          rel="stylesheet"
-          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-        />
-      </head>
-      <body>
+    <html lang="en" className={`${playfair.variable} ${inter.variable}`}>
+      <head />
+      <body className="bg-dark text-gray-100">
         {/* WhatsApp widget */}
         <Script
           id="whatsapp-widget"
@@ -46,10 +50,8 @@ export default function RootLayout({
           }}
         />
         <Header />
-        {children}
+        <main className="pt-20">{children}</main>
         <Footer />
-        <Script src="/js/compressed.js" strategy="afterInteractive" />
-        <Script src="/js/main.js" strategy="afterInteractive" />
       </body>
     </html>
   );
