@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Playfair_Display, Inter } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
@@ -10,12 +10,20 @@ const playfair = Playfair_Display({
   variable: "--font-playfair",
   weight: ["400", "600", "700"],
   style: ["normal", "italic"],
+  display: "swap",
 });
 
 const inter = Inter({
   subsets: ["latin"],
   variable: "--font-inter",
+  display: "swap",
 });
+
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+  themeColor: "#090909",
+};
 
 export const metadata: Metadata = {
   title: "Luxury Escorts in Mumbai | Escorts Services Mumbai | 24/7 Availability",
@@ -31,7 +39,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${playfair.variable} ${inter.variable}`}>
-      <head />
+      <head>
+        <link rel="preconnect" href="https://static.getbutton.io" />
+        <link rel="dns-prefetch" href="https://static.getbutton.io" />
+      </head>
       <body className="bg-dark text-gray-100">
         {/* WhatsApp widget */}
         <Script

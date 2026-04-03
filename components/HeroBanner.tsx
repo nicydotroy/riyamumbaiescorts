@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 interface HeroBannerProps {
   title: string;
   tall?: boolean;
@@ -7,9 +9,14 @@ export default function HeroBanner({ title, tall = false }: HeroBannerProps) {
   if (tall) {
     return (
       <section className="relative min-h-screen flex items-center justify-center overflow-hidden -mt-20">
-        <div
-          className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-          style={{ backgroundImage: "url('/images/escorts-in-mumbai-banner.webp')" }}
+        <Image
+          src="/images/escorts-in-mumbai-banner.webp"
+          alt="Escorts in Mumbai – Riya Escorts"
+          fill
+          priority
+          fetchPriority="high"
+          className="object-cover object-center"
+          sizes="100vw"
         />
         <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/55 to-dark" />
         <div className="absolute inset-0 bg-gradient-to-r from-black/30 via-transparent to-black/30" />
@@ -86,9 +93,14 @@ export default function HeroBanner({ title, tall = false }: HeroBannerProps) {
 
   return (
     <section className="relative py-28 md:py-36 overflow-hidden -mt-20">
-      <div
-        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-        style={{ backgroundImage: "url('/images/escorts-in-mumbai-banner.webp')" }}
+      <Image
+        src="/images/escorts-in-mumbai-banner.webp"
+        alt="Escorts services in Mumbai – Riya Escorts"
+        fill
+        priority
+        fetchPriority="high"
+        className="object-cover object-center"
+        sizes="100vw"
       />
       <div className="absolute inset-0 bg-gradient-to-b from-black/70 via-black/65 to-dark" />
       <div className="absolute inset-0 bg-gradient-to-r from-black/40 via-transparent to-black/40" />
