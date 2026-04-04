@@ -60,16 +60,28 @@ const nextConfig: NextConfig = {
   },
   async redirects() {
     return [
+      // ── Static pages ──────────────────────────────────────────────
       { source: "/index.html", destination: "/", permanent: true },
       { source: "/services.html", destination: "/services", permanent: true },
       { source: "/gallery.html", destination: "/gallery", permanent: true },
       { source: "/location.html", destination: "/location", permanent: true },
       { source: "/contact.html", destination: "/contact", permanent: true },
+
+      // ── Location escort pages  e.g. /affordable-escorts-in-andheri.html ──
       {
         source: "/affordable-escorts-in-:slug.html",
         destination: "/affordable-escorts-in-:slug",
         permanent: true,
       },
+
+      // ── SPA center pages  e.g. /spa-center-in-andheri.html ───────
+      {
+        source: "/spa-center-in-:slug.html",
+        destination: "/spa-center-in-:slug",
+        permanent: true,
+      },
+
+      // ── Service pages & any other single-segment .html ────────────
       { source: "/:slug.html", destination: "/:slug", permanent: true },
     ];
   },
