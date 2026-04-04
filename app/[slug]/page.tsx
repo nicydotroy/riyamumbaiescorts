@@ -454,7 +454,7 @@ export default async function DynamicPage({ params }: Props) {
 
         <LocationGrid />
 
-        {/* ===== FAQ Section ===== */
+        {/* ===== FAQ Section ===== */}
         <section className="relative py-24 bg-dark-surface overflow-hidden">
           <div className="absolute inset-0 bg-[radial-gradient(ellipse_80%_60%_at_50%_100%,rgba(232,25,91,0.08)_0%,transparent_70%)]" />
           <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-gold/40 to-transparent" />
