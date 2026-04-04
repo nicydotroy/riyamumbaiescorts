@@ -14,8 +14,14 @@ export const metadata: Metadata = {
       "Discover exclusive escort services by Riya Escorts in Mumbai. Tailored for sophistication and privacy, available round-the-clock.",
     url: "https://riyamumbaiescorts.com/services",
     siteName: "Riya Escorts",
-    images: [{ url: "https://riyamumbaiescorts.com/images/og-services-image.webp" }],
+    images: [{ url: "https://riyamumbaiescorts.com/images/og-services-image.webp", width: 1200, height: 630, alt: "Mumbai Escort Services – Riya Mumbai Escorts" }],
     type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Escorts Services by Riya Mumbai Escorts | Premium 24/7 Service",
+    description: "Discover exclusive escort services by Riya Escorts in Mumbai. Tailored for sophistication and privacy, available round-the-clock.",
+    images: [{ url: "https://riyamumbaiescorts.com/images/og-services-image.webp", alt: "Mumbai Escort Services – Riya Mumbai Escorts" }],
   },
 };
 

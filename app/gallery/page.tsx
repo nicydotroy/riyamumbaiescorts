@@ -9,6 +9,21 @@ export const metadata: Metadata = {
   description:
     "View the gallery of Riya Mumbai Escorts. Browse through images of our beautiful and elite escort companions available in Mumbai and surrounding areas.",
   alternates: { canonical: "https://riyamumbaiescorts.com/gallery" },
+  openGraph: {
+    title: "Gallery | Riya Mumbai Escorts | Premium Companion Photos",
+    description:
+      "Browse verified escort companion photos from Riya Mumbai Escorts. Elite, discreet, and available 24/7 across Mumbai and surrounding areas.",
+    url: "https://riyamumbaiescorts.com/gallery",
+    siteName: "Riya Escorts",
+    images: [{ url: "https://riyamumbaiescorts.com/images/og-image.webp", width: 1200, height: 630, alt: "Riya Mumbai Escorts Gallery – Premium Companion Photos" }],
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Gallery | Riya Mumbai Escorts | Premium Companion Photos",
+    description: "Browse verified escort companion photos from Riya Mumbai Escorts. Available 24/7 across Mumbai and surrounding areas.",
+    images: [{ url: "https://riyamumbaiescorts.com/images/og-image.webp", alt: "Riya Mumbai Escorts Gallery" }],
+  },
 };
 
 const galleryItems = [
@@ -65,12 +80,14 @@ export default function GalleryPage() {
               <Link
                 key={item.slug}
                 href={`/affordable-escorts-in-${item.slug}`}
+                title={`Escorts in ${item.name} – Riya Mumbai Escorts`}
                 className="group relative overflow-hidden rounded-2xl aspect-[3/4] bg-dark-card border border-dark-border hover:border-gold/40 transition-all duration-500 hover:-translate-y-1 hover:shadow-[0_20px_40px_rgba(0,0,0,0.6)]"
               >
                 <Image
                   src={item.img}
-                  alt={`Escorts in ${item.name}`}
+                  alt={`Premium Escorts in ${item.name}, Mumbai – Riya Mumbai Escorts`}
                   fill
+                  loading="lazy"
                   className="object-cover transition-transform duration-700 group-hover:scale-110"
                   sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
                 />

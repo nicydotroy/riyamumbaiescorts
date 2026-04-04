@@ -9,6 +9,21 @@ export const metadata: Metadata = {
   description:
     "Find escort services across all major locations in Mumbai. Riya Mumbai Escorts covers Andheri, Bandra, Thane, Navi Mumbai and 80+ more areas. Call now!",
   alternates: { canonical: "https://riyamumbaiescorts.com/location" },
+  openGraph: {
+    title: "Escorts Locations in Mumbai | All Areas Covered | Riya Mumbai Escorts",
+    description:
+      "Premium escort services available across 80+ locations in Mumbai, Navi Mumbai, and Thane district. Discreet, verified, and available 24/7.",
+    url: "https://riyamumbaiescorts.com/location",
+    siteName: "Riya Escorts",
+    images: [{ url: "https://riyamumbaiescorts.com/images/og-image.webp", width: 1200, height: 630, alt: "Escort Locations in Mumbai – Riya Mumbai Escorts" }],
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Escorts Locations in Mumbai | All Areas Covered | Riya Mumbai Escorts",
+    description: "Premium escort services available across 80+ locations in Mumbai. Discreet, verified, and available 24/7.",
+    images: [{ url: "https://riyamumbaiescorts.com/images/og-image.webp", alt: "Escort Locations in Mumbai – Riya Mumbai Escorts" }],
+  },
 };
 
 const locationItems = [
@@ -72,13 +87,15 @@ export default function LocationPage() {
               <Link
                 key={item.slug}
                 href={`/affordable-escorts-in-${item.slug}`}
+                title={`Escorts in ${item.name} – Riya Mumbai Escorts`}
                 className="group relative overflow-hidden rounded-2xl bg-dark-card border border-dark-border hover:border-gold/40 transition-all duration-500 hover:-translate-y-2 hover:shadow-[0_24px_50px_rgba(0,0,0,0.6),0_0_20px_rgba(232,25,91,0.08)]"
               >
                 <div className="relative aspect-[3/4] overflow-hidden">
                   <Image
                     src={item.img}
-                    alt={`Escorts in ${item.name}`}
+                    alt={`Premium Escorts in ${item.name}, Mumbai – Riya Mumbai Escorts`}
                     fill
+                    loading="lazy"
                     className="object-cover transition-transform duration-700 group-hover:scale-110"
                     sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                   />

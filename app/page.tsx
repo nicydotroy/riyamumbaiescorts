@@ -16,7 +16,7 @@ export const metadata: Metadata = {
       "Enjoy elite and discreet escort services with Riya Escorts in Mumbai. Tailored for your desires, available round-the-clock.",
     url: "https://riyamumbaiescorts.com/",
     siteName: "Riya Escorts",
-    images: [{ url: "https://riyamumbaiescorts.com/images/og-image.webp" }],
+    images: [{ url: "https://riyamumbaiescorts.com/images/og-image.webp", width: 1200, height: 630, alt: "Luxury Escorts in Mumbai – Riya Mumbai Escorts" }],
     type: "website",
   },
   twitter: {
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     title: "Luxury Escorts in Mumbai | Elite Services by Riya Escorts",
     description:
       "Discover sophisticated and luxurious escort services in Mumbai. Contact Riya Escorts for an exclusive experience tailored just for you. Available 24/7.",
-    images: ["https://riyamumbaiescorts.com/images/twitter-image.webp"],
+    images: [{ url: "https://riyamumbaiescorts.com/images/og-image.webp", alt: "Luxury Escorts in Mumbai – Riya Mumbai Escorts" }],
     site: "@RiyaEscorts",
     creator: "@RiyaEscorts",
   },

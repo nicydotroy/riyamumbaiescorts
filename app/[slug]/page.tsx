@@ -60,14 +60,14 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
         description: `Enjoy elite and discreet escort services with Riya Escorts in ${name}. Tailored for your desires, available round-the-clock.`,
         url: `https://riyamumbaiescorts.com/${LOCATION_PREFIX}${route.location.slug}`,
         siteName: "Riya Escorts",
-        images: [{ url: "https://riyamumbaiescorts.com/images/og-image.webp" }],
+        images: [{ url: `https://riyamumbaiescorts.com${route.location.image}`, width: 800, height: 1066, alt: `Luxury Escorts in ${name} – Riya Mumbai Escorts` }],
         type: "website",
       },
       twitter: {
         card: "summary_large_image",
         title: `Luxury Escorts in ${name} | Elite Services by Riya Escorts`,
         description: `Discover sophisticated escort services in ${name}. Contact Riya Escorts for an exclusive experience tailored just for you. Available 24/7.`,
-        images: ["https://riyamumbaiescorts.com/images/twitter-image.webp"],
+        images: [{ url: `https://riyamumbaiescorts.com${route.location.image}`, alt: `Escorts in ${name} – Riya Mumbai Escorts` }],
       },
     };
   }
@@ -86,14 +86,14 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
         description: `Enjoy luxury spa and massage services in ${name}. Certified therapists available at your hotel or home. Book your session now.`,
         url: `https://riyamumbaiescorts.com/${SPA_PREFIX}${route.location.slug}`,
         siteName: "Riya Mumbai Escorts",
-        images: [{ url: "https://riyamumbaiescorts.com/images/og-image.webp" }],
+        images: [{ url: `https://riyamumbaiescorts.com${route.location.image}`, width: 800, height: 1066, alt: `Spa Center in ${name} – Body Massage & Spa Services by Riya Mumbai` }],
         type: "website",
       },
       twitter: {
         card: "summary_large_image",
         title: `Best Spa Center in ${name} | Premium Massage & Spa Services`,
         description: `Luxury spa and body massage in ${name}. Certified therapists at your doorstep. Available 24/7. Call now.`,
-        images: ["https://riyamumbaiescorts.com/images/twitter-image.webp"],
+        images: [{ url: `https://riyamumbaiescorts.com${route.location.image}`, alt: `Spa Center in ${name} – Riya Mumbai` }],
       },
     };
   }
@@ -111,14 +111,14 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       description: service.description,
       url: `https://riyamumbaiescorts.com/${service.slug}`,
       siteName: "Riya Escorts",
-      images: [{ url: `https://riyamumbaiescorts.com${service.image}` }],
+      images: [{ url: `https://riyamumbaiescorts.com${service.image}`, width: 800, height: 1066, alt: service.alt }],
       type: "website",
     },
     twitter: {
       card: "summary_large_image",
       title: `${service.title} | Riya Mumbai Escorts`,
       description: service.description,
-      images: [`https://riyamumbaiescorts.com${service.image}`],
+      images: [{ url: `https://riyamumbaiescorts.com${service.image}`, alt: service.alt }],
     },
   };
 }

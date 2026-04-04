@@ -35,12 +35,13 @@ export default function LocationGrid() {
             <Link
               key={loc.slug}
               href={`/affordable-escorts-in-${loc.slug}`}
+              title={`Escorts in ${loc.name} – Riya Mumbai Escorts`}
               className="group relative overflow-hidden rounded-2xl bg-dark-card border border-dark-border hover:border-gold/40 transition-all duration-500 hover:-translate-y-2 hover:shadow-[0_24px_50px_rgba(0,0,0,0.6),0_0_20px_rgba(232,25,91,0.08)]"
             >
               <div className="relative aspect-[3/4] overflow-hidden">
                 <Image
                   src={loc.image}
-                  alt={`Escorts in ${loc.name}`}
+                  alt={`Premium Escorts in ${loc.name}, Mumbai – Riya Mumbai Escorts`}
                   fill
                   loading="lazy"
                   className="object-cover transition-transform duration-700 group-hover:scale-110"
