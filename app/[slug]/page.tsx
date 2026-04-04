@@ -690,6 +690,26 @@ export default async function DynamicPage({ params }: Props) {
       q: "Which areas of Mumbai do you deliver this service to?",
       a: "We cover 80+ locations across Mumbai — Andheri, Bandra, Juhu, Thane, Navi Mumbai, Borivali, Panvel, Kalyan, Mira Road, and many more. If your area is not listed, contact us and we will arrange it.",
     },
+    {
+      icon: (<svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>),
+      q: `What is the minimum booking duration for ${service.title}?`,
+      a: `The minimum booking duration is 1 hour. We also offer 2-hour, 3-hour, half-day, and full overnight packages for ${service.title}. The longer the booking, the more relaxed and immersive the experience becomes. Contact our team to discuss the ideal duration and package for your specific requirements.`,
+    },
+    {
+      icon: (<svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M7 8h10M7 12h4m1 8l-4-4H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-3l-4 4z" /></svg>),
+      q: `Can I request a specific type of companion for ${service.title}?`,
+      a: `Absolutely. You can specify preferences including appearance, age range, personality type, nationality, and specialisation. Our team will match you with the most suitable companion from our ${service.title} roster. Specific requests are always treated as a priority and accommodated wherever possible.`,
+    },
+    {
+      icon: (<svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2" /></svg>),
+      q: "What should I prepare before the companion arrives?",
+      a: "Ensure a private, comfortable space and have the agreed payment ready. Be punctual — our companions are always on time and appreciate mutual courtesy. A welcoming, relaxed environment sets the ideal tone. Our team is available to guide first-time clients through every step of the preparation process.",
+    },
+    {
+      icon: (<svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" /></svg>),
+      q: `Do you offer overnight bookings for ${service.title}?`,
+      a: `Yes — overnight and extended bookings are available and among our most requested packages for ${service.title}. These offer a relaxed, unhurried, and deeply personal experience perfect for those who want to fully savour their time with an elite companion. Contact us directly for overnight rates and same-day availability.`,
+    },
   ];
 
   const serviceFaqSchema = {
@@ -1002,6 +1022,225 @@ export default async function DynamicPage({ params }: Props) {
 
       {/* Locations Grid */}
       <LocationGrid />
+
+      {/* ===== Deep SEO Content Section ===== */}
+      <section className="relative py-24 overflow-hidden bg-dark">
+        <div className="absolute inset-0 bg-[radial-gradient(ellipse_50%_50%_at_70%_30%,rgba(212,175,55,0.03)_0%,transparent_70%)]" />
+        <div className="relative z-10 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 space-y-20">
+
+          {/* Intro */}
+          <div className="max-w-4xl mx-auto text-center">
+            <p className="text-gold text-xs font-semibold tracking-[0.3em] uppercase mb-4">
+              In-Depth Guide
+            </p>
+            <h2 className="font-playfair text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-6 leading-tight">
+              The Complete Guide to{" "}
+              <span className="text-gradient-gold">{service.title}</span>{" "}
+              in Mumbai
+            </h2>
+            <div className="flex items-center justify-center gap-3 mb-8">
+              <div className="h-px w-12 bg-gradient-to-r from-transparent to-gold" />
+              <div className="w-2 h-2 rotate-45 bg-gold" />
+              <div className="h-px w-12 bg-gradient-to-l from-transparent to-gold" />
+            </div>
+            <p className="text-gray-400 text-base leading-relaxed mb-4">
+              Mumbai is India&apos;s most cosmopolitan city — a global hub of commerce, entertainment, and refined lifestyle. Within this dynamic environment, Riya Mumbai Escorts has built the city&apos;s most trusted {service.title} platform, consistently raising the standard for quality, professionalism, and absolute discretion. Whether you are a first-time client curious about what to expect, or a seasoned visitor who demands nothing but the finest, this guide covers everything — what our {service.title} offer, how the booking process works, what to expect on the day, and why thousands of Mumbai clients return to Riya time and again for this particular service.
+            </p>
+            <p className="text-gray-400 text-base leading-relaxed">
+              Read on to understand exactly why Riya Mumbai Escorts is the definitive choice for {service.title} in the city, and how a single call to +91 8169808077 is all it takes to begin an experience unlike anything else available in Mumbai.
+            </p>
+          </div>
+
+          {/* Understanding the Service */}
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+            <div className="bg-dark-card border border-dark-border rounded-2xl p-8 space-y-5 text-gray-400 leading-relaxed">
+              <h3 className="font-playfair text-2xl font-bold text-white">
+                What Are {service.title} in Mumbai?
+              </h3>
+              <p>
+                {service.title} represent one of Mumbai&apos;s most sought-after premium companionship experiences. Companions in this category are selected for their unique combination of beauty, intelligence, social grace, and professional conduct. Each undergoes a rigorous vetting process before joining the Riya platform — ensuring every client encounter is genuine, safe, and truly exceptional.
+              </p>
+              <p>
+                The breadth of {service.title} is wide — from attending a corporate dinner or social event as a polished plus-one, to providing warm, intimate companionship in the privacy of your hotel suite or apartment. Our companions are versatile, emotionally intelligent, and skilled at personalising every interaction to your specific personality and needs — making each experience feel natural, tailored, and deeply satisfying.
+              </p>
+              <p>
+                Unlike random directories or unverified listings, our {service.title} platform is built on authenticity, consistency, and genuine care. Every profile is real. Every companion is a vetted professional. Every booking is executed with the same high standard — whether it is your first time or your fiftieth.
+              </p>
+              <div className="border-t border-dark-border pt-5">
+                <p className="text-sm text-gold font-semibold tracking-wide mb-3">
+                  Included in this category:
+                </p>
+                <ul className="space-y-2">
+                  {[
+                    "In-room hotel and apartment visits across Mumbai",
+                    "Dinner date and social event companionship",
+                    "Long-duration, half-day, and overnight bookings",
+                    "Same-day and advance scheduling options",
+                    "Custom requests and specific companion preferences",
+                  ].map((point) => (
+                    <li key={point} className="flex items-center gap-2 text-sm">
+                      <span className="w-1.5 h-1.5 rounded-full bg-gold flex-shrink-0" />
+                      {point}
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            </div>
+
+            <div className="bg-dark-card border border-dark-border rounded-2xl p-8 space-y-5 text-gray-400 leading-relaxed">
+              <h3 className="font-playfair text-2xl font-bold text-white">
+                Who Books {service.title} in Mumbai?
+              </h3>
+              <p>
+                Our {service.title} clients span every background. A large proportion are business travellers staying in Mumbai&apos;s luxury hotels — executives, entrepreneurs, and international professionals who travel frequently and understand the value of a thoroughly professional companionship service that respects their time, their preferences, and most importantly, their privacy.
+              </p>
+              <p>
+                We also serve a significant volume of Mumbai residents — local professionals, high-net-worth individuals, and those celebrating special occasions who want a companion that truly matches their lifestyle and expectations. What unites all our clients is a shared demand for quality, authenticity, and ironclad discretion.
+              </p>
+              <p>
+                A large share of our {service.title} bookings come from loyal repeat clients who have been with us for years. The reason is consistent delivery — no bait-and-switch, no fake profiles, no last-minute cancellations. Just genuine, premium companionship in a professional, discreet package that stands entirely apart from anything else available in Mumbai.
+              </p>
+              <p>
+                First-time clients are always warmly welcomed with zero pressure and complete respect. Our team takes time to understand your preferences, answer any questions honestly, and guide you through the process with care. Your first experience with Riya is designed to be exceptional — and it almost always leads to many more engagements to follow.
+              </p>
+            </div>
+          </div>
+
+          {/* Step-by-Step Journey */}
+          <div>
+            <div className="text-center mb-12">
+              <h2 className="font-playfair text-3xl md:text-4xl font-bold text-white mb-4">
+                Your {service.title} Experience — Step by Step
+              </h2>
+              <p className="text-gray-500 text-base max-w-2xl mx-auto">
+                From first contact to a memorable evening with your chosen companion — here is exactly what the process looks like.
+              </p>
+            </div>
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-4">
+              {[
+                {
+                  step: "01",
+                  title: "Get in Touch",
+                  text: "Call or WhatsApp +91 8169808077. Our team is available 24/7 and responds within minutes. No complicated forms — just a simple, private, and judgment-free conversation.",
+                },
+                {
+                  step: "02",
+                  title: "Share Preferences",
+                  text: "Tell us what you are looking for — companion type, duration, location, and any special requests. Everything shared is treated with the strictest confidentiality.",
+                },
+                {
+                  step: "03",
+                  title: "We Confirm",
+                  text: `We confirm availability from our ${service.title} roster and share the companion profile for your approval. You decide — no pressure, no commitment until you are ready.`,
+                },
+                {
+                  step: "04",
+                  title: "Companion Arrives",
+                  text: "Your companion arrives at your location punctually and impeccably presented — warm, professional, and fully ready to make your experience extraordinary from the very first moment.",
+                },
+                {
+                  step: "05",
+                  title: "Enjoy & Return",
+                  text: "Enjoy an unforgettable experience. Clients return because we consistently deliver exactly what was promised — with nothing left to chance, and nothing left to be desired.",
+                },
+              ].map(({ step, title, text }) => (
+                <div key={step} className="bg-dark-card border border-dark-border rounded-2xl p-6 text-center hover:border-gold/30 transition-colors duration-300">
+                  <div className="w-12 h-12 rounded-full bg-gold/10 border border-gold/20 flex items-center justify-center text-gold font-playfair font-bold text-lg mx-auto mb-4">
+                    {step}
+                  </div>
+                  <h3 className="font-playfair text-sm font-semibold text-white mb-2">{title}</h3>
+                  <p className="text-gray-500 text-xs leading-relaxed">{text}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+
+          {/* Why Mumbai's Elite Choose Riya */}
+          <div>
+            <div className="text-center mb-12">
+              <h2 className="font-playfair text-3xl md:text-4xl font-bold text-white mb-4">
+                Why Mumbai&apos;s Discerning Clients Choose Riya
+              </h2>
+              <p className="text-gray-500 text-base max-w-2xl mx-auto">
+                For {service.title} in Mumbai, Riya is the name clients trust above all others. Here is what sets us apart.
+              </p>
+            </div>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+              {[
+                {
+                  icon: "🔍",
+                  title: "Verified Profiles Only",
+                  text: `Every companion in our ${service.title} category is personally verified before listing. Photos are genuine, profiles are completely accurate. No fake listings — ever, under any circumstances.`,
+                },
+                {
+                  icon: "🔒",
+                  title: "Ironclad Privacy",
+                  text: "Your name, contact information, and preferences are never stored, sold, or shared with anyone. We operate a strict no-data-retention policy. Privacy is protected from the very first call.",
+                },
+                {
+                  icon: "⚡",
+                  title: "Same-Day Availability",
+                  text: "Need a companion tonight? We confirm same-day bookings within 30–60 minutes in most cases. Our large and active roster means availability is rarely an issue — even on short notice.",
+                },
+                {
+                  icon: "🌆",
+                  title: "80+ Mumbai Locations",
+                  text: "We serve more than 80 locations across Greater Mumbai, Navi Mumbai, Thane, and surrounding areas. Wherever you are in the city, our companions arrive discreetly and on time.",
+                },
+                {
+                  icon: "💎",
+                  title: "Five-Star Quality",
+                  text: `Our ${service.title} are not only physically stunning — they are articulate, polished, and impeccable in every interaction. They fit seamlessly into any environment, social or private.`,
+                },
+                {
+                  icon: "📞",
+                  title: "24/7 Dedicated Support",
+                  text: "Our booking team is available around the clock, every day of the year. Late-night queries, last-minute requests, preference changes — we handle everything promptly and without fuss.",
+                },
+              ].map(({ icon, title, text }) => (
+                <div key={title} className="bg-dark-card border border-dark-border rounded-2xl p-6 hover:border-gold/30 transition-colors duration-300">
+                  <div className="text-3xl mb-4">{icon}</div>
+                  <h3 className="font-playfair text-lg font-semibold text-white mb-3">{title}</h3>
+                  <p className="text-gray-500 text-sm leading-relaxed">{text}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+
+          {/* Booking Tips & Riya Commitment */}
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+            <div className="border-l-4 border-gold pl-6 text-gray-400 leading-relaxed space-y-4">
+              <h2 className="font-playfair text-2xl font-bold text-white">
+                Tips for First-Time Clients
+              </h2>
+              <p>
+                If this is your first time booking {service.title} in Mumbai, here is how to make the experience as seamless as possible. Be direct about your preferences when you get in touch — the more clearly we understand what you are looking for, the better matched your companion will be. There is zero judgment at Riya, only a genuine desire to help you have the best possible time.
+              </p>
+              <p>
+                Have your preferred venue confirmed before finalising the booking. Whether it is your hotel room, a private apartment, or another location — confirm the details upfront so the companion can arrive without any complications or delays. Our team will also advise on Mumbai&apos;s most discreet, client-friendly hotels if you need guidance on where to book.
+              </p>
+              <p>
+                Finally, relax. Our companions are skilled professionals and exceptional conversationalists who put every client at ease from the moment they arrive. Whether you are nervous, tired after a long working day, or simply want a natural and unhurried connection — they will make the entire experience comfortable, warm, and genuinely memorable from start to finish.
+              </p>
+            </div>
+            <div className="border-l-4 border-gold/40 pl-6 text-gray-400 leading-relaxed space-y-4">
+              <h2 className="font-playfair text-2xl font-bold text-white">
+                Our Commitment to {service.title}
+              </h2>
+              <p>
+                At Riya Mumbai Escorts, our commitment to {service.title} extends far beyond simply providing a companion. We are in the business of crafting complete experiences — curated, personalised, and delivered with the highest standards of quality and professionalism that Mumbai&apos;s most demanding clients have come to expect and strongly rely upon.
+              </p>
+              <p>
+                We continuously update and expand our {service.title} roster to ensure variety, freshness, and the widest possible choice at all times. Every companion is regularly reviewed, continuously trained in client interaction and social etiquette, and held to a strict professional code of conduct. Any companion who fails to consistently meet our standard is immediately removed from the platform — no exceptions made.
+              </p>
+              <p>
+                This unwavering commitment to excellence is precisely why repeat clients account for the lion&apos;s share of our booking volumes. When you find a service that genuinely delivers on everything it promises — beautifully, consistently, and with complete discretion — you come back. And we will always be here when you do. Call or WhatsApp +91 8169808077 today to begin your extraordinary experience with Mumbai&apos;s finest {service.title}.
+              </p>
+            </div>
+          </div>
+
+        </div>
+      </section>
 
       {/* ===== FAQ Section ===== */}
       <section className="relative py-28 overflow-hidden bg-dark-surface">
