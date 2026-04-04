@@ -406,7 +406,7 @@ export default function HomePage() {
           </div>
 
           {/* Stats bar */}
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-14">
             {[
               { stat: "80+", label: "Mumbai Locations Covered" },
               { stat: "500+", label: "Verified Companions" },
@@ -421,6 +421,114 @@ export default function HomePage() {
                 <div className="text-gray-500 text-xs font-medium tracking-wide leading-snug">{s.label}</div>
               </div>
             ))}
+          </div>
+
+          {/* Extended SEO editorial content */}
+          <div className="relative rounded-3xl border border-dark-border bg-dark-card overflow-hidden">
+            <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-gold/40 to-transparent" />
+            <div className="absolute inset-0 bg-[radial-gradient(ellipse_50%_40%_at_0%_0%,rgba(212,175,55,0.04)_0%,transparent_60%)]" />
+
+            <div className="relative z-10 p-8 md:p-12 space-y-12">
+
+              {/* Block 1 */}
+              <div>
+                <h3 className="font-playfair text-2xl md:text-3xl font-bold text-white mb-4 leading-snug">
+                  Mumbai&apos;s Most Trusted Escort Service — Riya Escorts
+                </h3>
+                <div className="w-12 h-0.5 bg-gold mb-5" />
+                <p className="text-gray-500 text-sm leading-[1.9] mb-4">
+                  When it comes to finding a premium escort service in Mumbai, the options are many — but the quality varies enormously. Riya Mumbai Escorts has established itself as the most trusted name in the city precisely because we prioritise quality over quantity. Our platform is not a directory; it is a curated collection of genuine, verified, and highly professional companions who are selected for their elegance, intelligence, and ability to provide an exceptional experience.
+                </p>
+                <p className="text-gray-500 text-sm leading-[1.9]">
+                  From the moment you contact us to the moment your experience concludes, you will notice the difference. We operate with the professionalism of a luxury concierge service — attentive, discreet, and entirely focused on exceeding your expectations. Our clients include senior executives, entrepreneurs, celebrities, and international travellers who demand nothing less than the absolute best Mumbai has to offer.
+                </p>
+              </div>
+
+              {/* Block 2 — with inline highlight box */}
+              <div className="grid grid-cols-1 lg:grid-cols-5 gap-8 items-start">
+                <div className="lg:col-span-3">
+                  <h3 className="font-playfair text-2xl md:text-3xl font-bold text-white mb-4 leading-snug">
+                    The Riya Experience — What Makes Us Different
+                  </h3>
+                  <div className="w-12 h-0.5 bg-gold mb-5" />
+                  <p className="text-gray-500 text-sm leading-[1.9] mb-4">
+                    Every escort service in Mumbai will tell you they are the best — but very few can substantiate that claim. At Riya Escorts, our reputation is backed by years of consistent service, thousands of satisfied clients, and a commitment to continuous improvement. We regularly update our companion roster to ensure freshness and variety, and every new escort joins only after passing our rigorous vetting process.
+                  </p>
+                  <p className="text-gray-500 text-sm leading-[1.9]">
+                    We understand that every client is unique. A first-time visitor to Mumbai has very different needs from a regular business traveller. Our team takes the time to understand your specific requirements and personally recommends the companion most suited to your personality, preferences, and the occasion in question. This bespoke approach is what transforms a simple escort booking into an unforgettable memory.
+                  </p>
+                </div>
+                <div className="lg:col-span-2">
+                  <div className="rounded-2xl border border-gold/25 bg-gradient-to-br from-gold/5 to-transparent p-6">
+                    <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-gold/40 to-transparent" />
+                    <p className="text-gold text-xs font-semibold tracking-[0.25em] uppercase mb-4">Why Clients Choose Us</p>
+                    <ul className="space-y-3">
+                      {[
+                        "Personally handpicked companions",
+                        "Verified profiles — no fake listings",
+                        "Bespoke matching to your preferences",
+                        "Punctual, professional outcall service",
+                        "Zero hidden charges — full transparency",
+                        "Complete privacy at every step",
+                        "Available across 80+ Mumbai locations",
+                        "24/7 responsive customer support",
+                      ].map((point) => (
+                        <li key={point} className="flex items-start gap-3 text-gray-400 text-sm">
+                          <span className="flex-shrink-0 mt-2 w-1.5 h-1.5 rotate-45 bg-gold" />
+                          {point}
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              {/* Block 3 */}
+              <div>
+                <h3 className="font-playfair text-2xl md:text-3xl font-bold text-white mb-4 leading-snug">
+                  Escort Services Across All of Mumbai — South Mumbai to the Suburbs
+                </h3>
+                <div className="w-12 h-0.5 bg-gold mb-5" />
+                <p className="text-gray-500 text-sm leading-[1.9] mb-4">
+                  Mumbai is a city of contrasts — from the iconic Marine Drive and the five-star hotels of Nariman Point to the lively lanes of Andheri, the serene suburbs of Juhu, and the sprawling townships of Navi Mumbai. Riya Mumbai Escorts operates seamlessly across all these micro-markets, offering consistent quality whether you are staying at the Taj Mahal Palace or a premium service apartment in Powai.
+                </p>
+                <p className="text-gray-500 text-sm leading-[1.9] mb-4">
+                  We cover popular hubs like Bandra, Andheri, Juhu, Borivali, Thane, Kharghar, Panvel, Kalyan, and Mira Road — as well as lesser-served areas including Churchgate, Grant Road, Mahalaxmi, Prabhadevi, Dadar, Kurla, and Ghatkopar. No matter where you are in the city, we will send a companion to your door swiftly and discreetly.
+                </p>
+                <p className="text-gray-500 text-sm leading-[1.9]">
+                  Our deep coverage across the Mumbai Metropolitan Region means you are never far from a premium escort experience. We are available even for outstation travel arrangements when you need a companion to accompany you beyond city limits — to Pune, Lonavala, or elsewhere in Maharashtra.
+                </p>
+              </div>
+
+              {/* Block 4 */}
+              <div>
+                <h3 className="font-playfair text-2xl md:text-3xl font-bold text-white mb-4 leading-snug">
+                  Independent Escorts vs Agency Escorts in Mumbai — Why an Agency is Safer
+                </h3>
+                <div className="w-12 h-0.5 bg-gold mb-5" />
+                <p className="text-gray-500 text-sm leading-[1.9] mb-4">
+                  Many clients in Mumbai are tempted to seek out independent escorts to save costs. While independent escorts do exist, working with a reputable agency like Riya Escorts offers significant advantages in terms of safety, reliability, and consistency. When you book through us, you deal with a professional team that has already verified the companion&apos;s identity, health, and professional conduct.
+                </p>
+                <p className="text-gray-500 text-sm leading-[1.9]">
+                  Independent listings on social media or classifieds sites carry risks — profiles may be fake, photos misleading, or the encounter may become unsafe. With Riya Escorts, what you see is what you get. Everything is transparent, professionally managed, and backed by our commitment to your satisfaction and security. This is why repeat clients in Mumbai consistently return to Riya Escorts rather than exploring unverified alternatives.
+                </p>
+              </div>
+
+              {/* Block 5 */}
+              <div>
+                <h3 className="font-playfair text-2xl md:text-3xl font-bold text-white mb-4 leading-snug">
+                  The Best Hotels in Mumbai to Meet Our Escorts
+                </h3>
+                <div className="w-12 h-0.5 bg-gold mb-5" />
+                <p className="text-gray-500 text-sm leading-[1.9] mb-4">
+                  Mumbai is home to some of India&apos;s most prestigious hotels — and our escorts are experienced, confident, and perfectly at ease in these environments. Whether you are staying at the Taj Mahal Palace Hotel in Colaba, the Oberoi in Nariman Point, the JW Marriott in Juhu, the Grand Hyatt in Santacruz, or a boutique luxury property in Bandra, our companions will arrive discreetly and professionally.
+                </p>
+                <p className="text-gray-500 text-sm leading-[1.9]">
+                  We are familiar with the protocols and expectations of Mumbai&apos;s five-star hospitality circuit. Our escorts understand how to conduct themselves in premium settings — from lobby entrances to fine-dining restaurants — ensuring an experience that is seamless, natural, and entirely memorable. Just provide us with your hotel name and room details at the time of booking and we will handle the rest.
+                </p>
+              </div>
+
+            </div>
           </div>
 
         </div>
