@@ -54,5 +54,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.8,
   }));
 
-  return [...staticPages, ...servicePages, ...locationPages];
+  const spaPages: MetadataRoute.Sitemap = locations.map((loc) => ({
+    url: `${BASE_URL}/spa-center-in-${loc.slug}`,
+    lastModified: now,
+    changeFrequency: "weekly" as const,
+    priority: 0.8,
+  }));
+
+  return [...staticPages, ...servicePages, ...locationPages, ...spaPages];
 }
