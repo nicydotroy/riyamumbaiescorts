@@ -3,6 +3,7 @@ import Link from "next/link";
 import HeroBanner from "@/components/HeroBanner";
 import ContactBanner from "@/components/ContactBanner";
 import ServiceGrid from "@/components/ServiceGrid";
+import LocationGrid from "@/components/LocationGrid";
 
 export const metadata: Metadata = {
   title: "Luxury Escorts in Mumbai | Escorts Services Mumbai | 24/7 Availability",
@@ -232,6 +233,106 @@ export default function HomePage() {
                 </p>
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Locations Section */}
+      <LocationGrid />
+
+      {/* FAQ Section */}
+      <section className="relative py-24 overflow-hidden bg-dark">
+        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(232,25,91,0.05)_0%,transparent_70%)]" />
+        <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-gold/40 to-transparent" />
+        <div className="absolute bottom-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-gold/20 to-transparent" />
+
+        <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <p className="text-gold text-xs font-semibold tracking-[0.35em] uppercase mb-4">
+              FAQ
+            </p>
+            <h2 className="font-playfair text-4xl md:text-5xl font-bold text-white mb-5 leading-tight">
+              Frequently Asked <span className="text-gradient-gold">Questions</span>
+            </h2>
+            <div className="flex items-center justify-center gap-3 mb-6">
+              <div className="h-px w-16 bg-gradient-to-r from-transparent to-gold" />
+              <div className="w-2 h-2 rotate-45 bg-gold" />
+              <div className="h-px w-16 bg-gradient-to-l from-transparent to-gold" />
+            </div>
+            <p className="text-gray-500 text-sm max-w-xl mx-auto leading-relaxed">
+              Everything you need to know about our premium escort services in Mumbai.
+            </p>
+          </div>
+
+          <div className="space-y-4">
+            {[
+              {
+                q: "What types of escort services do you offer in Mumbai?",
+                a: "Riya Mumbai Escorts offers a wide range of premium companionship services including IT Girls, Housewife Escorts, Russian Escorts, South Indian Escorts, Arab Escorts, Punjabi Escorts, BDSM Experts, Role Play specialists, and many more. Each companion is handpicked for elegance, charm, and professionalism.",
+              },
+              {
+                q: "Are your escort services available 24/7?",
+                a: "Yes, our escort services in Mumbai are available round-the-clock, 24 hours a day, 7 days a week. Whether you need companionship early in the morning or late at night, our team is always ready to assist you.",
+              },
+              {
+                q: "How do I book an escort in Mumbai?",
+                a: "Booking is simple and discreet. You can reach us directly via our contact page or call/WhatsApp the number listed on our website. Our team will guide you through the available companions and help you select the perfect match for your preferences.",
+              },
+              {
+                q: "Is my privacy and personal information kept confidential?",
+                a: "Absolutely. Discretion is one of our top priorities. All personal information shared during the booking process is treated with the strictest confidentiality. We never share client details with any third parties.",
+              },
+              {
+                q: "Do you provide escort services across all areas of Mumbai?",
+                a: "Yes, we cover 80+ locations across Mumbai and its suburbs including Andheri, Bandra, Juhu, Thane, Navi Mumbai, Borivali, Kandivali, Panvel, Kalyan, and many more. If you can&apos;t find your area, simply contact us and we will arrange service at your location.",
+              },
+              {
+                q: "Are all the companions on your platform verified?",
+                a: "Yes. Every companion listed on Riya Mumbai Escorts is carefully screened and verified. We ensure that all our escorts are genuine, professional, and committed to providing a safe and enjoyable experience.",
+              },
+              {
+                q: "What is the minimum booking duration?",
+                a: "Our minimum booking is typically for one hour, though we also offer extended bookings for a few hours, overnight, or full-day experiences. Rates vary depending on the duration and type of service selected.",
+              },
+              {
+                q: "Do you offer outcall and incall services?",
+                a: "We primarily offer outcall services, where our companions come directly to your hotel, residence, or preferred location in Mumbai. Incall options may also be available depending on the companion — please enquire at the time of booking.",
+              },
+              {
+                q: "Can I request a specific type of companion?",
+                a: "Absolutely. You can browse our diverse range of companions by category — whether you prefer a college girl, a mature housewife, an exotic Russian escort, or a GFE specialist. Just let us know your preferences when booking and we will match you accordingly.",
+              },
+              {
+                q: "How is the pricing structured for your services?",
+                a: "Pricing varies based on the companion selected, the duration of the booking, and the type of service. We offer competitive and transparent rates with no hidden charges. Contact us directly for a detailed rate card tailored to your requirements.",
+              },
+              {
+                q: "Are your services safe?",
+                a: "Your safety is our utmost concern. All our companions follow strict safety and hygiene protocols. We thoroughly vet every escort on our platform and maintain a professional environment to ensure both client and companion safety at all times.",
+              },
+              {
+                q: "What areas near Mumbai can you serve?",
+                a: "In addition to central Mumbai, we serve the full Mumbai Metropolitan Region including Navi Mumbai, Thane, Mira Road, Virar, Vasai, Kalyan, Dombivali, Panvel, Kharghar, and dozens of additional suburbs. We are one of the most widely available escort services in the region.",
+              },
+            ].map((item, i) => (
+              <details
+                key={i}
+                className="group rounded-2xl bg-dark-card border border-dark-border hover:border-gold/40 transition-all duration-300 overflow-hidden"
+              >
+                <summary className="flex items-center justify-between gap-4 p-6 cursor-pointer list-none select-none">
+                  <span className="font-playfair text-base font-semibold text-white group-open:text-gold transition-colors duration-300">
+                    {item.q}
+                  </span>
+                  <span className="flex-shrink-0 w-7 h-7 rounded-full bg-gold/10 border border-gold/25 flex items-center justify-center text-gold text-sm transition-transform duration-300 group-open:rotate-45">
+                    +
+                  </span>
+                </summary>
+                <div className="px-6 pb-6">
+                  <div className="w-8 h-0.5 bg-gold mb-3" />
+                  <p className="text-gray-500 text-sm leading-relaxed">{item.a}</p>
+                </div>
+              </details>
+            ))}
           </div>
         </div>
       </section>
