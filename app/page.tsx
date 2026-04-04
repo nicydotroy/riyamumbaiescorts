@@ -240,6 +240,192 @@ export default function HomePage() {
       {/* Locations Section */}
       <LocationGrid />
 
+      {/* SEO Informational Content Section */}
+      <section className="relative py-24 overflow-hidden bg-dark">
+        <div className="absolute inset-0 bg-[radial-gradient(ellipse_60%_50%_at_50%_50%,rgba(212,175,55,0.05)_0%,transparent_70%)]" />
+        <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-gold/40 to-transparent" />
+        <div className="absolute bottom-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-gold/20 to-transparent" />
+
+        <div className="relative z-10 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+
+          {/* Section header */}
+          <div className="text-center mb-16">
+            <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-gold/30 bg-gold/5 mb-6">
+              <span className="w-1.5 h-1.5 rounded-full bg-gold" />
+              <span className="text-gold text-xs font-semibold tracking-[0.3em] uppercase">
+                Your Complete Guide
+              </span>
+              <span className="w-1.5 h-1.5 rounded-full bg-gold" />
+            </div>
+            <h2 className="font-playfair text-4xl md:text-5xl font-bold text-white mb-5 leading-tight">
+              Premium Escort Services in{" "}
+              <span className="text-gradient-gold">Mumbai</span>
+            </h2>
+            <div className="flex items-center justify-center gap-3 mb-6">
+              <div className="h-px w-16 bg-gradient-to-r from-transparent to-gold" />
+              <div className="w-2 h-2 rotate-45 bg-gold" />
+              <div className="h-px w-16 bg-gradient-to-l from-transparent to-gold" />
+            </div>
+            <p className="text-gray-400 text-base max-w-3xl mx-auto leading-relaxed">
+              Mumbai — India&apos;s financial capital and city of dreams — is also home to the most refined and discreet escort services in the country. Whether you are a businessman visiting for meetings, a traveller seeking local companionship, or a resident looking for a premium social experience, Riya Mumbai Escorts is your trusted partner.
+            </p>
+          </div>
+
+          {/* 3-col topic cards */}
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-14">
+            {/* Card 1 */}
+            <div className="group relative p-7 rounded-2xl bg-dark-card border border-dark-border hover:border-gold/40 transition-all duration-500 overflow-hidden">
+              <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-gold/0 to-transparent group-hover:via-gold/60 transition-all duration-500" />
+              <div className="absolute inset-0 bg-gradient-to-br from-gold/5 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 rounded-2xl" />
+              <div className="relative z-10">
+                <div className="w-11 h-11 rounded-xl bg-gold/10 border border-gold/25 flex items-center justify-center text-gold mb-5 group-hover:scale-110 group-hover:bg-gold/20 transition-all duration-300">
+                  <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z" />
+                  </svg>
+                </div>
+                <h3 className="font-playfair text-xl font-bold text-white mb-3 group-hover:text-gold transition-colors duration-300">
+                  Elite Companions, Curated for You
+                </h3>
+                <div className="w-8 h-0.5 bg-gold mb-4 transition-all duration-300 group-hover:w-14" />
+                <p className="text-gray-500 text-sm leading-relaxed">
+                  Every companion in our Mumbai roster is personally selected for her charm, intelligence, and elegance. From IT professionals and college graduates to experienced housewives and exotic international escorts — our collection is unmatched in quality and diversity.
+                </p>
+              </div>
+            </div>
+
+            {/* Card 2 — highlighted */}
+            <div className="group relative p-7 rounded-2xl bg-dark-card border border-gold/25 transition-all duration-500 overflow-hidden shadow-[0_0_40px_rgba(212,175,55,0.06)]">
+              <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-gold/60 to-transparent" />
+              <div className="absolute inset-0 bg-gradient-to-br from-gold/8 via-transparent to-transparent rounded-2xl" />
+              <div className="relative z-10">
+                <div className="w-11 h-11 rounded-xl bg-gold/15 border border-gold/40 flex items-center justify-center text-gold mb-5">
+                  <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
+                  </svg>
+                </div>
+                <h3 className="font-playfair text-xl font-bold text-gold mb-3">
+                  100% Discreet &amp; Confidential
+                </h3>
+                <div className="w-8 h-0.5 bg-gold mb-4" />
+                <p className="text-gray-400 text-sm leading-relaxed">
+                  Your privacy is non-negotiable. All bookings are handled with absolute confidentiality — no personal data is ever shared, stored unnecessarily, or disclosed to third parties. We operate with the discretion that high-profile clients in Mumbai demand.
+                </p>
+              </div>
+            </div>
+
+            {/* Card 3 */}
+            <div className="group relative p-7 rounded-2xl bg-dark-card border border-dark-border hover:border-gold/40 transition-all duration-500 overflow-hidden">
+              <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-gold/0 to-transparent group-hover:via-gold/60 transition-all duration-500" />
+              <div className="absolute inset-0 bg-gradient-to-br from-gold/5 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 rounded-2xl" />
+              <div className="relative z-10">
+                <div className="w-11 h-11 rounded-xl bg-gold/10 border border-gold/25 flex items-center justify-center text-gold mb-5 group-hover:scale-110 group-hover:bg-gold/20 transition-all duration-300">
+                  <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" /><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                  </svg>
+                </div>
+                <h3 className="font-playfair text-xl font-bold text-white mb-3 group-hover:text-gold transition-colors duration-300">
+                  Serving 80+ Mumbai Locations
+                </h3>
+                <div className="w-8 h-0.5 bg-gold mb-4 transition-all duration-300 group-hover:w-14" />
+                <p className="text-gray-500 text-sm leading-relaxed">
+                  From South Mumbai&apos;s luxury hotels to the suburbs of Thane, Navi Mumbai, and beyond — we deliver premium escort services across every corner of the Mumbai Metropolitan Region, with punctual outcall service at your preferred address.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          {/* Long-form SEO content — 2 columns */}
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 mb-14">
+            {/* Left column */}
+            <div className="space-y-7">
+              <div>
+                <h3 className="font-playfair text-2xl font-bold text-white mb-3">
+                  Why Riya Escorts Stands Apart in Mumbai
+                </h3>
+                <div className="w-10 h-0.5 bg-gold mb-4" />
+                <p className="text-gray-500 text-sm leading-relaxed mb-4">
+                  The escort industry in Mumbai is large — but finding a genuinely reliable, safe, and high-quality service is rare. Riya Mumbai Escorts has built its reputation over years of serving discerning clients who demand nothing less than perfection. Our companions are not just beautiful; they are well-spoken, socially adept, and trained to provide an experience that goes far beyond the ordinary.
+                </p>
+                <p className="text-gray-500 text-sm leading-relaxed">
+                  Whether you require a sophisticated companion for a corporate dinner, a travel partner to accompany you on a business trip, or an intimate encounter in the privacy of your hotel suite, we have the right escort in Mumbai for every occasion.
+                </p>
+              </div>
+
+              <div>
+                <h3 className="font-playfair text-2xl font-bold text-white mb-3">
+                  Types of Escort Services Available
+                </h3>
+                <div className="w-10 h-0.5 bg-gold mb-4" />
+                <ul className="space-y-2.5">
+                  {[
+                    "Girlfriend Experience (GFE) — genuine warmth and emotional connection",
+                    "Social & dinner companions for events and corporate gatherings",
+                    "Travel companions across Mumbai and outstation",
+                    "In-room and hotel escort services in all major Mumbai hotels",
+                    "Roleplay and fantasy-themed experiences",
+                    "BDSM and specialty services by trained professionals",
+                    "International companions — Russian, Arab, and more",
+                  ].map((item) => (
+                    <li key={item} className="flex items-start gap-3 text-gray-500 text-sm leading-relaxed">
+                      <span className="flex-shrink-0 mt-1.5 w-1.5 h-1.5 rotate-45 bg-gold" />
+                      {item}
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            </div>
+
+            {/* Right column */}
+            <div className="space-y-7">
+              <div>
+                <h3 className="font-playfair text-2xl font-bold text-white mb-3">
+                  How to Book Escorts in Mumbai
+                </h3>
+                <div className="w-10 h-0.5 bg-gold mb-4" />
+                <p className="text-gray-500 text-sm leading-relaxed mb-4">
+                  Booking with Riya Mumbai Escorts is a seamless, three-step process designed to respect your time and privacy. Browse our collection of companions online, select the escort that matches your preferences, and contact our team via call or WhatsApp. We confirm your booking discreetly within minutes — no lengthy forms, no unnecessary information.
+                </p>
+                <p className="text-gray-500 text-sm leading-relaxed">
+                  Our customer service team is available around the clock to assist with last-minute bookings, special requests, and any questions you may have. We understand that spontaneity is part of the experience — which is why we maintain 24/7 availability across all of Mumbai.
+                </p>
+              </div>
+
+              <div>
+                <h3 className="font-playfair text-2xl font-bold text-white mb-3">
+                  Safety, Hygiene &amp; Professionalism
+                </h3>
+                <div className="w-10 h-0.5 bg-gold mb-4" />
+                <p className="text-gray-500 text-sm leading-relaxed mb-4">
+                  Every escort listed with Riya Mumbai Escorts undergoes thorough background verification, health screening, and professional training. We enforce strict safety standards to protect both our clients and companions. All encounters are consensual, professional, and operate within clearly defined boundaries.
+                </p>
+                <p className="text-gray-500 text-sm leading-relaxed">
+                  Our hygiene standards are aligned with five-star expectations. Whether you are visiting a luxury hotel in South Mumbai or hosting at a private residence in Bandra, you can trust that our companions arrive well-groomed, punctually, and prepared to deliver a flawless experience.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          {/* Stats bar */}
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+            {[
+              { stat: "80+", label: "Mumbai Locations Covered" },
+              { stat: "500+", label: "Verified Companions" },
+              { stat: "24/7", label: "Always Available" },
+              { stat: "100%", label: "Discreet & Confidential" },
+            ].map((s) => (
+              <div
+                key={s.label}
+                className="text-center p-6 rounded-2xl bg-dark-card border border-dark-border hover:border-gold/30 transition-colors duration-300"
+              >
+                <div className="font-playfair text-4xl font-bold text-gold mb-2">{s.stat}</div>
+                <div className="text-gray-500 text-xs font-medium tracking-wide leading-snug">{s.label}</div>
+              </div>
+            ))}
+          </div>
+
+        </div>
+      </section>
+
       {/* FAQ Section */}
       <section className="relative py-28 overflow-hidden bg-dark-surface">
         {/* Layered background atmosphere */}
