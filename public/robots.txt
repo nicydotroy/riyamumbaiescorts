@@ -1,7 +1,62 @@
+# Riya Mumbai Escorts — robots.txt
+# https://riyamumbaiescorts.com
+
+# ── Allow all reputable crawlers ──────────────────────────────────
 User-agent: *
 Allow: /
 
+# Block internal Next.js internals and API routes
 Disallow: /api/
 Disallow: /_next/
+Disallow: /404
+Disallow: /500
 
+# ── Block known scrapers & bad bots ──────────────────────────────
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
+
+User-agent: SemrushBot
+Crawl-delay: 10
+
+User-agent: DataForSeoBot
+Disallow: /
+
+# ── LLM / AI Crawlers ─────────────────────────────────────────────
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: YouBot
+Allow: /
+
+User-agent: Bytespider
+Disallow: /
+
+# ── Sitemaps ──────────────────────────────────────────────────────
 Sitemap: https://riyamumbaiescorts.com/sitemap.xml
+
+# ── LLMs.txt ──────────────────────────────────────────────────────
+# https://riyamumbaiescorts.com/llms.txt
