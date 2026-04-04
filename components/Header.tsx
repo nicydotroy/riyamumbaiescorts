@@ -64,13 +64,13 @@ export default function Header() {
 
           {/* Desktop CTA */}
           <a
-            href="tel:+918169808077"
+            href="tel:+919038976363"
             className="hidden md:flex items-center gap-2 bg-gradient-to-r from-gold to-gold-dark text-black font-bold text-sm px-6 py-2.5 rounded-full transition-all duration-300 hover:opacity-90 hover:scale-105 shadow-[0_4px_15px_rgba(232,25,91,0.3)]"
           >
             <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
               <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
             </svg>
-            +91 8169808077
+            +91 9038976363
           </a>
 
           {/* Mobile toggle */}
@@ -117,13 +117,13 @@ export default function Header() {
               </Link>
             ))}
             <a
-              href="tel:+918169808077"
+              href="tel:+919038976363"
               className="mt-3 flex items-center justify-center gap-2 bg-gradient-to-r from-gold to-gold-dark text-black font-bold py-3 px-6 rounded-full text-sm"
             >
               <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
                 <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
               </svg>
-              Call: +91 8169808077
+              Call: +91 9038976363
             </a>
           </div>
         </div>

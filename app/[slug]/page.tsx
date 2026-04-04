@@ -137,7 +137,7 @@ export default async function DynamicPage({ params }: Props) {
       "@id": `https://riyamumbaiescorts.com/${LOCATION_PREFIX}${locSlug}#business`,
       name: `Riya Escorts in ${name}`,
       url: `https://riyamumbaiescorts.com/${LOCATION_PREFIX}${locSlug}`,
-      telephone: "+918169808077",
+      telephone: "+919038976363",
       description: `Premium discreet escort services in ${name}, Mumbai. Verified companions available 24/7. Call or WhatsApp to book now.`,
       image: `https://riyamumbaiescorts.com${locImage}`,
       address: {
@@ -162,7 +162,7 @@ export default async function DynamicPage({ params }: Props) {
     const locationFaqs = [
       {
         q: `How do I book an escort in ${name}?`,
-        a: `Booking is simple — call or WhatsApp +91 8169808077, describe your preferences, and we will match you with the perfect companion in ${name}. Same-day and advance bookings are both available.`,
+        a: `Booking is simple — call or WhatsApp +91 9038976363, describe your preferences, and we will match you with the perfect companion in ${name}. Same-day and advance bookings are both available.`,
       },
       {
         q: `What types of companions are available in ${name}?`,
@@ -318,7 +318,7 @@ export default async function DynamicPage({ params }: Props) {
                   ))}
                 </ul>
                 <a
-                  href="tel:+918169808077"
+                  href="tel:+919038976363"
                   className="inline-flex items-center gap-3 bg-gradient-to-r from-gold to-gold-dark text-black font-bold text-base px-8 py-4 rounded-full hover:opacity-90 hover:scale-105 transition-all duration-300 shadow-[0_8px_30px_rgba(212,175,55,0.25)]"
                 >
                   <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
@@ -348,7 +348,7 @@ export default async function DynamicPage({ params }: Props) {
                     </svg>
                   ),
                   title: `How to Book in ${name}`,
-                  text: `Call or WhatsApp +91 8169808077, choose your companion category, confirm time and location — we handle the rest. Booking takes under 5 minutes.`,
+                  text: `Call or WhatsApp +91 9038976363, choose your companion category, confirm time and location — we handle the rest. Booking takes under 5 minutes.`,
                 },
                 {
                   icon: (
@@ -658,7 +658,7 @@ export default async function DynamicPage({ params }: Props) {
                 </div>
                 <div className="flex items-center gap-3 flex-shrink-0">
                   <a
-                    href="tel:+918169808077"
+                    href="tel:+919038976363"
                     className="inline-flex items-center gap-2 border border-gold/40 text-gold hover:bg-gold/10 font-semibold text-sm px-5 py-3 rounded-full transition-all duration-300"
                   >
                     <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
@@ -667,7 +667,7 @@ export default async function DynamicPage({ params }: Props) {
                     Call Now
                   </a>
                   <a
-                    href="https://wa.me/918169808077"
+                    href="https://wa.me/919038976363"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white font-semibold text-sm px-5 py-3 rounded-full transition-colors duration-300"
@@ -698,7 +698,7 @@ export default async function DynamicPage({ params }: Props) {
       "@id": `https://riyamumbaiescorts.com/${SPA_PREFIX}${locSlug}#spa`,
       name: `Riya Spa Center in ${name}`,
       url: `https://riyamumbaiescorts.com/${SPA_PREFIX}${locSlug}`,
-      telephone: "+918169808077",
+      telephone: "+919038976363",
       description: `Premium spa center services in ${name}, Mumbai. Expert body massage, aromatherapy, deep tissue, and full-body spa treatments. Certified therapists available 24/7.`,
       image: `https://riyamumbaiescorts.com${locImage}`,
       "@type2": "HealthAndBeautyBusiness",
@@ -728,7 +728,7 @@ export default async function DynamicPage({ params }: Props) {
       },
       {
         q: `How do I book a spa center session in ${name}?`,
-        a: `Booking is effortless — call or WhatsApp +91 8169808077, mention your location in ${name}, select your preferred treatment, and we will confirm your appointment within minutes. Same-day and advance bookings are both welcome.`,
+        a: `Booking is effortless — call or WhatsApp +91 9038976363, mention your location in ${name}, select your preferred treatment, and we will confirm your appointment within minutes. Same-day and advance bookings are both welcome.`,
       },
       {
         q: `Are your spa services in ${name} available 24/7?`,
@@ -878,7 +878,7 @@ export default async function DynamicPage({ params }: Props) {
                   ))}
                 </ul>
                 <a
-                  href="tel:+918169808077"
+                  href="tel:+919038976363"
                   className="inline-flex items-center gap-3 bg-gradient-to-r from-gold to-gold-dark text-black font-bold text-base px-8 py-4 rounded-full hover:opacity-90 hover:scale-105 transition-all duration-300 shadow-[0_8px_30px_rgba(212,175,55,0.25)]"
                 >
                   <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
@@ -908,7 +908,7 @@ export default async function DynamicPage({ params }: Props) {
                     </svg>
                   ),
                   title: `How to Book in ${name}`,
-                  text: `Call or WhatsApp +91 8169808077, choose your treatment, confirm time and location — we handle the rest. Booking your spa session in ${name} takes under 5 minutes.`,
+                  text: `Call or WhatsApp +91 9038976363, choose your treatment, confirm time and location — we handle the rest. Booking your spa session in ${name} takes under 5 minutes.`,
                 },
                 {
                   icon: (
@@ -1162,7 +1162,7 @@ export default async function DynamicPage({ params }: Props) {
                   {
                     step: "01",
                     title: "Contact Us",
-                    text: "Call or WhatsApp +91 8169808077 anytime. Immediate response, zero judgment, complete privacy from the very first message.",
+                    text: "Call or WhatsApp +91 9038976363 anytime. Immediate response, zero judgment, complete privacy from the very first message.",
                   },
                   {
                     step: "02",
@@ -1275,7 +1275,7 @@ export default async function DynamicPage({ params }: Props) {
                   We maintain a strict code of professional conduct for all therapists. Sessions are therapeutic, professional, and conducted with total respect for the client at all times. Our zero-tolerance policy for unprofessional conduct has never needed to be invoked — because we select only the finest professionals in the first place.
                 </p>
                 <p>
-                  Regular clients in {name} consistently describe their experience with Riya as the best in the city — not just for the quality of the therapy itself, but for the seamless booking process, the punctuality of therapists, and the quiet, assured professionalism that characterises every single interaction. Call or WhatsApp +91 8169808077 now and experience the difference for yourself.
+                  Regular clients in {name} consistently describe their experience with Riya as the best in the city — not just for the quality of the therapy itself, but for the seamless booking process, the punctuality of therapists, and the quiet, assured professionalism that characterises every single interaction. Call or WhatsApp +91 9038976363 now and experience the difference for yourself.
                 </p>
               </div>
             </div>
@@ -1425,7 +1425,7 @@ export default async function DynamicPage({ params }: Props) {
                 </div>
                 <div className="flex items-center gap-3 flex-shrink-0">
                   <a
-                    href="tel:+918169808077"
+                    href="tel:+919038976363"
                     className="inline-flex items-center gap-2 border border-gold/40 text-gold hover:bg-gold/10 font-semibold text-sm px-5 py-3 rounded-full transition-all duration-300"
                   >
                     <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
@@ -1434,7 +1434,7 @@ export default async function DynamicPage({ params }: Props) {
                     Call Now
                   </a>
                   <a
-                    href="https://wa.me/918169808077"
+                    href="https://wa.me/919038976363"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white font-semibold text-sm px-5 py-3 rounded-full transition-colors duration-300"
@@ -1470,7 +1470,7 @@ export default async function DynamicPage({ params }: Props) {
       "@type": "LocalBusiness",
       name: "Riya Mumbai Escorts",
       url: "https://riyamumbaiescorts.com",
-      telephone: "+918169808077",
+      telephone: "+919038976363",
       address: {
         "@type": "PostalAddress",
         addressLocality: "Mumbai",
@@ -1496,7 +1496,7 @@ export default async function DynamicPage({ params }: Props) {
     {
       icon: (<svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>),
       q: `How do I book ${service.title} in Mumbai?`,
-      a: `Simply call or WhatsApp +91 8169808077, mention your preference for ${service.title}, and our team will confirm availability and arrange everything within minutes. Advance and same-day bookings are both welcome.`,
+      a: `Simply call or WhatsApp +91 9038976363, mention your preference for ${service.title}, and our team will confirm availability and arrange everything within minutes. Advance and same-day bookings are both welcome.`,
     },
     {
       icon: (<svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" /></svg>),
@@ -1659,16 +1659,16 @@ export default async function DynamicPage({ params }: Props) {
               </ul>
               <div className="flex flex-wrap gap-3">
                 <a
-                  href="tel:+918169808077"
+                  href="tel:+919038976363"
                   className="inline-flex items-center gap-3 bg-gradient-to-r from-gold to-gold-dark text-black font-bold text-base px-8 py-4 rounded-full hover:opacity-90 hover:scale-105 transition-all duration-300 shadow-[0_8px_30px_rgba(212,175,55,0.25)]"
                 >
                   <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
                     <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
                   </svg>
-                  Book Now — +91 8169808077
+                  Book Now — +91 9038976363
                 </a>
                 <a
-                  href="https://wa.me/918169808077"
+                  href="https://wa.me/919038976363"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 border border-gold/40 text-gold hover:bg-gold/10 font-semibold text-base px-6 py-4 rounded-full transition-all duration-300"
@@ -1701,7 +1701,7 @@ export default async function DynamicPage({ params }: Props) {
                   </svg>
                 ),
                 title: "How to Book",
-                text: "Call or WhatsApp +91 8169808077, mention your preferred category, confirm time and location — and our team will handle everything. Booking takes under 5 minutes.",
+                text: "Call or WhatsApp +91 9038976363, mention your preferred category, confirm time and location — and our team will handle everything. Booking takes under 5 minutes.",
               },
               {
                 icon: (
@@ -1885,7 +1885,7 @@ export default async function DynamicPage({ params }: Props) {
               Mumbai is India&apos;s most cosmopolitan city — a global hub of commerce, entertainment, and refined lifestyle. Within this dynamic environment, Riya Mumbai Escorts has built the city&apos;s most trusted {service.title} platform, consistently raising the standard for quality, professionalism, and absolute discretion. Whether you are a first-time client curious about what to expect, or a seasoned visitor who demands nothing but the finest, this guide covers everything — what our {service.title} offer, how the booking process works, what to expect on the day, and why thousands of Mumbai clients return to Riya time and again for this particular service.
             </p>
             <p className="text-gray-400 text-base leading-relaxed">
-              Read on to understand exactly why Riya Mumbai Escorts is the definitive choice for {service.title} in the city, and how a single call to +91 8169808077 is all it takes to begin an experience unlike anything else available in Mumbai.
+              Read on to understand exactly why Riya Mumbai Escorts is the definitive choice for {service.title} in the city, and how a single call to +91 9038976363 is all it takes to begin an experience unlike anything else available in Mumbai.
             </p>
           </div>
 
@@ -1959,7 +1959,7 @@ export default async function DynamicPage({ params }: Props) {
                 {
                   step: "01",
                   title: "Get in Touch",
-                  text: "Call or WhatsApp +91 8169808077. Our team is available 24/7 and responds within minutes. No complicated forms — just a simple, private, and judgment-free conversation.",
+                  text: "Call or WhatsApp +91 9038976363. Our team is available 24/7 and responds within minutes. No complicated forms — just a simple, private, and judgment-free conversation.",
                 },
                 {
                   step: "02",
@@ -2072,7 +2072,7 @@ export default async function DynamicPage({ params }: Props) {
                 We continuously update and expand our {service.title} roster to ensure variety, freshness, and the widest possible choice at all times. Every companion is regularly reviewed, continuously trained in client interaction and social etiquette, and held to a strict professional code of conduct. Any companion who fails to consistently meet our standard is immediately removed from the platform — no exceptions made.
               </p>
               <p>
-                This unwavering commitment to excellence is precisely why repeat clients account for the lion&apos;s share of our booking volumes. When you find a service that genuinely delivers on everything it promises — beautifully, consistently, and with complete discretion — you come back. And we will always be here when you do. Call or WhatsApp +91 8169808077 today to begin your extraordinary experience with Mumbai&apos;s finest {service.title}.
+                This unwavering commitment to excellence is precisely why repeat clients account for the lion&apos;s share of our booking volumes. When you find a service that genuinely delivers on everything it promises — beautifully, consistently, and with complete discretion — you come back. And we will always be here when you do. Call or WhatsApp +91 9038976363 today to begin your extraordinary experience with Mumbai&apos;s finest {service.title}.
               </p>
             </div>
           </div>
@@ -2161,7 +2161,7 @@ export default async function DynamicPage({ params }: Props) {
               </div>
               <div className="flex items-center gap-3 flex-shrink-0">
                 <a
-                  href="tel:+918169808077"
+                  href="tel:+919038976363"
                   className="inline-flex items-center gap-2 border border-gold/40 text-gold hover:bg-gold/10 font-semibold text-sm px-5 py-3 rounded-full transition-all duration-300"
                 >
                   <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
@@ -2170,7 +2170,7 @@ export default async function DynamicPage({ params }: Props) {
                   Call Now
                 </a>
                 <a
-                  href="https://wa.me/918169808077"
+                  href="https://wa.me/919038976363"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white font-semibold text-sm px-5 py-3 rounded-full transition-colors duration-300"

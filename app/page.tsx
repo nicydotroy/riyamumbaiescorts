@@ -79,7 +79,7 @@ const localBusinessSchema = {
   "@id": "https://riyamumbaiescorts.com/#business",
   name: "Riya Mumbai Escorts",
   url: "https://riyamumbaiescorts.com/",
-  telephone: "+918169808077",
+  telephone: "+919038976363",
   description:
     "Mumbai's most trusted premium escort service. Discreet, verified companions available 24/7 across 80+ Mumbai locations including Andheri, Bandra, Juhu, Thane, Navi Mumbai and more.",
   image: "https://riyamumbaiescorts.com/images/og-image.webp",
@@ -100,7 +100,7 @@ const localBusinessSchema = {
     opens: "00:00",
     closes: "23:59",
   },
-  sameAs: ["https://wa.me/918169808077"],
+  sameAs: ["https://wa.me/919038976363"],
   priceRange: "₹₹₹",
   areaServed: {
     "@type": "City",

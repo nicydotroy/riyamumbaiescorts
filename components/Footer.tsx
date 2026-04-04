@@ -145,18 +145,18 @@ export default function Footer() {
             {/* Contact actions */}
             <div className="flex flex-col sm:flex-row gap-3 items-center">
               <a
-                href="tel:+918169808077"
+                href="tel:+919038976363"
                 title="Call Riya Mumbai Escorts"
-                aria-label="Call us at +91 8169808077"
+                aria-label="Call us at +91 9038976363"
                 className="group flex items-center gap-3 bg-gradient-to-r from-gold to-amber-500 text-dark font-bold text-sm px-7 py-3.5 rounded-xl hover:shadow-[0_0_25px_rgba(212,175,55,0.4)] transition-all duration-300"
               >
                 <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
                   <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
                 </svg>
-                Call Now — +91 8169808077
+                Call Now — +91 9038976363
               </a>
               <a
-                href="https://wa.me/918169808077?text=Hi%2C%20I%27d%20like%20to%20book%20an%20escort%20in%20Mumbai"
+                href="https://wa.me/919038976363?text=Hi%2C%20I%27d%20like%20to%20book%20an%20escort%20in%20Mumbai"
                 target="_blank"
                 rel="noopener noreferrer"
                 title="WhatsApp Riya Mumbai Escorts"

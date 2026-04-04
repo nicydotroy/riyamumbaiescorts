@@ -49,7 +49,7 @@ export default function RootLayout({
           id="whatsapp-widget"
           strategy="lazyOnload"
           dangerouslySetInnerHTML={{
-            __html: `(function(){var options={whatsapp:"+918169808077",call_to_action:"Message us",position:"left"};var proto=document.location.protocol,host="getbutton.io",url=proto+"//static."+host;var s=document.createElement('script');s.type='text/javascript';s.async=true;s.src=url+'/widget-send-button/js/init.js';s.onload=function(){WhWidgetSendButton.init(host,proto,options);};var x=document.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);})();`,
+            __html: `(function(){var options={whatsapp:"+919038976363",call_to_action:"Message us",position:"left"};var proto=document.location.protocol,host="getbutton.io",url=proto+"//static."+host;var s=document.createElement('script');s.type='text/javascript';s.async=true;s.src=url+'/widget-send-button/js/init.js';s.onload=function(){WhWidgetSendButton.init(host,proto,options);};var x=document.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);})();`,
           }}
         />
         {/* Call widget */}
@@ -57,7 +57,7 @@ export default function RootLayout({
           id="call-widget"
           strategy="lazyOnload"
           dangerouslySetInnerHTML={{
-            __html: `(function(){var options={call:"+918169808077",call_to_action:"Call us",position:"right"};var proto=document.location.protocol,host="getbutton.io",url=proto+"//static."+host;var s=document.createElement('script');s.type='text/javascript';s.async=true;s.src=url+'/widget-send-button/js/init.js';s.onload=function(){WhWidgetSendButton.init(host,proto,options);};var x=document.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);})();`,
+            __html: `(function(){var options={call:"+919038976363",call_to_action:"Call us",position:"right"};var proto=document.location.protocol,host="getbutton.io",url=proto+"//static."+host;var s=document.createElement('script');s.type='text/javascript';s.async=true;s.src=url+'/widget-send-button/js/init.js';s.onload=function(){WhWidgetSendButton.init(host,proto,options);};var x=document.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);})();`,
           }}
         />
         <Header />
