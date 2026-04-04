@@ -6,10 +6,10 @@ import Image from "next/image";
 
 const navLinks = [
   { href: "/", label: "Home" },
-  { href: "/affordable-escorts-in-navi-mumbai", label: "Navi Mumbai" },
-  { href: "/services", label: "Services" },
+  { href: "/affordable-escorts-in-navi-mumbai", label: "Navi Mumbai Escorts" },
+  { href: "/services", label: "Escort Services" },
   { href: "/gallery", label: "Gallery" },
-  { href: "/location", label: "Location" },
+  { href: "/location", label: "Escort Locations" },
   { href: "/contact", label: "Contact" },
 ];
 

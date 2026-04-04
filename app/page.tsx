@@ -73,9 +73,177 @@ const features = [
   },
 ];
 
+const localBusinessSchema = {
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "@id": "https://riyamumbaiescorts.com/#business",
+  name: "Riya Mumbai Escorts",
+  url: "https://riyamumbaiescorts.com/",
+  telephone: "+918169808077",
+  description:
+    "Mumbai's most trusted premium escort service. Discreet, verified companions available 24/7 across 80+ Mumbai locations including Andheri, Bandra, Juhu, Thane, Navi Mumbai and more.",
+  image: "https://riyamumbaiescorts.com/images/og-image.webp",
+  address: {
+    "@type": "PostalAddress",
+    addressLocality: "Mumbai",
+    addressRegion: "Maharashtra",
+    addressCountry: "IN",
+  },
+  geo: {
+    "@type": "GeoCoordinates",
+    latitude: 19.076,
+    longitude: 72.8777,
+  },
+  openingHoursSpecification: {
+    "@type": "OpeningHoursSpecification",
+    dayOfWeek: ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
+    opens: "00:00",
+    closes: "23:59",
+  },
+  sameAs: ["https://wa.me/918169808077"],
+  priceRange: "₹₹₹",
+  areaServed: {
+    "@type": "City",
+    name: "Mumbai",
+  },
+};
+
+const webSiteSchema = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "@id": "https://riyamumbaiescorts.com/#website",
+  url: "https://riyamumbaiescorts.com/",
+  name: "Riya Mumbai Escorts",
+  description: "Premium Escort Services in Mumbai — Discreet, Verified & Available 24/7",
+  inLanguage: "en-IN",
+  potentialAction: {
+    "@type": "SearchAction",
+    target: {
+      "@type": "EntryPoint",
+      urlTemplate: "https://riyamumbaiescorts.com/?s={search_term_string}",
+    },
+    "query-input": "required name=search_term_string",
+  },
+};
+
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: [
+    {
+      "@type": "Question",
+      name: "What types of escort services do you offer in Mumbai?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "We offer a wide range of premium companions — IT Girls, Housewife Escorts, Russian Escorts, South Indian, Arab, Punjabi, BDSM Experts, Role Play specialists, GFE, and more. Every companion is handpicked for elegance and charm.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "Are your escort services available 24/7?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Yes — round-the-clock, every single day. Whether it is a late-night rendezvous or an early morning engagement, our team in Mumbai is always ready to assist you.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "How do I book an escort in Mumbai?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Simply contact us via our contact page, call, or WhatsApp. Our team will walk you through available companions and help you find your perfect match quickly and discreetly.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "Is my privacy kept confidential?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Absolutely. Discretion is foundational to how we operate. All personal information shared during booking is treated with the strictest confidentiality and never shared with any third party.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "Which areas of Mumbai do you cover?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "We cover 80+ locations — Andheri, Bandra, Juhu, Thane, Navi Mumbai, Borivali, Panvel, Kalyan, and many more. Contact us if your area is not listed and we will arrange service at your doorstep.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "Are all companions verified?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Yes — every companion is carefully screened and verified before joining our platform. We ensure they are genuine, professional, and committed to delivering a safe, enjoyable experience.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "What is the minimum booking duration?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Our minimum booking is one hour. We also offer multi-hour, overnight, and full-day packages. Rates vary by duration and companion.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "Do you offer outcall and incall escort services?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "We primarily offer outcall services where companions come directly to your hotel, residence, or preferred location. Incall options may be available depending on the companion.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "How is pricing structured for escort services?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Rates depend on the companion, duration, and type of service. We offer transparent, competitive pricing with absolutely no hidden charges. Contact us directly for a personalised rate card.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "Are your escort services safe?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Your safety is our utmost priority. All companions follow strict safety and hygiene protocols, are thoroughly vetted, and operate in a professional, respectful environment at all times.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "Can I request a specific type of companion?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Of course. Browse by category or describe your ideal companion to our team. Whether you prefer a college girl, a mature housewife, an exotic Russian escort, or a GFE specialist — we will find your perfect match.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "What areas near Mumbai can you serve?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "We cover the full Mumbai Metropolitan Region — Navi Mumbai, Thane, Mira Road, Virar, Vasai, Kalyan, Dombivali, Panvel, Kharghar, and dozens more suburbs.",
+      },
+    },
+  ],
+};
+
 export default function HomePage() {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(webSiteSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
       <HeroBanner title="Escorts In Mumbai" tall />
 
       {/* Features Strip */}
