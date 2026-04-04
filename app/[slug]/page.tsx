@@ -157,6 +157,22 @@ export default async function DynamicPage({ params }: Props) {
         q: `What hotels in ${name} allow escort services?`,
         a: `Many 3-star, 4-star, and 5-star hotels in ${name} are discreet and guest-friendly. Our companions are experienced with hotel visits and will arrive discretely. Contact us and we will advise on a smooth arrangement.`,
       },
+      {
+        q: `What is the minimum booking duration for escorts in ${name}?`,
+        a: `The minimum booking duration is 1 hour. We also offer 2-hour, 3-hour, half-day, and full overnight packages in ${name}. The longer the booking, the more relaxed and personalised the experience. Contact our team to discuss the best package for your needs.`,
+      },
+      {
+        q: `Can I request a specific type of companion in ${name}?`,
+        a: `Absolutely. You can specify preferences including appearance, age range, nationality, and specialisation — and we will match you from our ${name} roster. Specific requests are always treated as a priority and accommodated wherever possible.`,
+      },
+      {
+        q: `Do you offer GFE or overnight escort services in ${name}?`,
+        a: `Yes — GFE (Girlfriend Experience) and overnight bookings are among our most requested services in ${name}. These offer a warm, intimate, and deeply personal experience ideal for those who want unhurried quality time with an elite companion. Contact us for rates and availability.`,
+      },
+      {
+        q: `How quickly can I get an escort to my location in ${name}?`,
+        a: `In most cases, we can confirm and dispatch a companion to your location in ${name} within 30–60 minutes for same-day bookings. Our extensive roster means availability is rarely an issue. Contact us now and we will confirm your booking within minutes.`,
+      },
     ];
 
     const locationFaqSchema = {
@@ -529,6 +545,26 @@ export default async function DynamicPage({ params }: Props) {
                   icon: (<svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" /></svg>),
                   q: `What hotels in ${name} allow escort services?`,
                   a: locationFaqs[7].a,
+                },
+                {
+                  icon: (<svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>),
+                  q: `What is the minimum booking duration for escorts in ${name}?`,
+                  a: locationFaqs[8].a,
+                },
+                {
+                  icon: (<svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" /></svg>),
+                  q: `Can I request a specific type of companion in ${name}?`,
+                  a: locationFaqs[9].a,
+                },
+                {
+                  icon: (<svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" /></svg>),
+                  q: `Do you offer GFE or overnight escort services in ${name}?`,
+                  a: locationFaqs[10].a,
+                },
+                {
+                  icon: (<svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M13 10V3L4 14h7v7l9-11h-7z" /></svg>),
+                  q: `How quickly can I get an escort to my location in ${name}?`,
+                  a: locationFaqs[11].a,
                 },
               ].map((item, i) => (
                 <details
